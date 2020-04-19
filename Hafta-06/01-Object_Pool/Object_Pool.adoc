@@ -210,9 +210,10 @@ Class Eşya{
 }
 
 Class Dükkan{
+    -{static} Dukkan* instance
     -list<Eşya> esyalar
-    -{static} int eleman_sayisi
-    -{static} int mevcut_eleman_sayisi
+    -int eleman_sayisi
+    -int mevcut_eleman_sayisi
     -int max_size = 3;
     -Dukkan()
     +{static} Dukkan getInsatance()
@@ -220,6 +221,6 @@ Class Dükkan{
     +void esyaSatinAl(Eşya)
 }
 
-Dükkan --- Dükkan : Self Association
+Dükkan *-- Dükkan : Self Composition
 Eşya <.. Dükkan : Üretir <
 ----

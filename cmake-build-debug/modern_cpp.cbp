@@ -17,11 +17,47 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="Hafta-07-01-Builder">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-07-01-Builder" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-07-01-Builder"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-07-01-Builder/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-07-01-Builder" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-07-01-Builder/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -73,8 +109,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-06-03-Deep_And_Shallow_Copy">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-06-03-Deep_And_Shallow_Copy" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-05-05-Late_Binding">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-05-Late_Binding" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -90,14 +126,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-06-03-Deep_And_Shallow_Copy"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-05-Late_Binding"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-06-03-Deep_And_Shallow_Copy/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-06-03-Deep_And_Shallow_Copy" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-05-05-Late_Binding/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-05-Late_Binding" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -113,7 +149,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-06-03-Deep_And_Shallow_Copy/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-05-Late_Binding/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -165,8 +201,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-06-01-Object_Pool">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-06-01-Object_Pool" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-05-04-Early_Binding">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-04-Early_Binding" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -182,14 +218,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-06-01-Object_Pool"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-04-Early_Binding"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-06-01-Object_Pool/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-06-01-Object_Pool" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-05-04-Early_Binding/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-04-Early_Binding" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -205,293 +241,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-06-01-Object_Pool/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-05-02-Factory">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-02-Factory" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-02-Factory"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-05-02-Factory/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-02-Factory" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-02-Factory/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-05-01-Thread_Safe_Singleton">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-01-Thread_Safe_Singleton" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-01-Thread_Safe_Singleton"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-05-01-Thread_Safe_Singleton/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-01-Thread_Safe_Singleton" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-01-Thread_Safe_Singleton/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-04-09-Priority_Queue">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-09-Priority_Queue" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-09-Priority_Queue"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-04-09-Priority_Queue/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-09-Priority_Queue" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-09-Priority_Queue/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-04-06-Multiset">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-06-Multiset" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-06-Multiset"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-04-06-Multiset/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-06-Multiset" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-06-Multiset/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-02-03-Abstract">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-03-Abstract" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-03-Abstract"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-02-03-Abstract/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-03-Abstract" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-03-Abstract/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-02-01-Virtual_Functions">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-01-Virtual_Functions" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-01-Virtual_Functions"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-02-01-Virtual_Functions/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-01-Virtual_Functions" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-01-Virtual_Functions/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-04-Early_Binding/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -543,8 +293,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-02-05-Move_Semantics">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-05-Move_Semantics" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-05-02-Factory">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-02-Factory" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -560,14 +310,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-05-Move_Semantics"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-02-Factory"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-02-05-Move_Semantics/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-05-Move_Semantics" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-05-02-Factory/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-02-Factory" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -583,14 +333,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-05-Move_Semantics/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-02-Factory/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-02-02-Pure_Virtual_Functions">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-02-Pure_Virtual_Functions" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-06-03-Deep_And_Shallow_Copy">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-06-03-Deep_And_Shallow_Copy" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -606,14 +356,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-02-Pure_Virtual_Functions"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-06-03-Deep_And_Shallow_Copy"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-02-02-Pure_Virtual_Functions/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-02-Pure_Virtual_Functions" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-06-03-Deep_And_Shallow_Copy/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-06-03-Deep_And_Shallow_Copy" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -629,145 +379,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-02-Pure_Virtual_Functions/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-05-05-Late_Binding">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-05-Late_Binding" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-05-Late_Binding"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-05-05-Late_Binding/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-05-Late_Binding" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-05-Late_Binding/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-01-03-Animals">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-03-Animals" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-03-Animals"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-01-03-Animals/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-03-Animals" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-03-Animals/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-05-04-Early_Binding">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-04-Early_Binding" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-04-Early_Binding"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-05-04-Early_Binding/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-04-Early_Binding" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-04-Early_Binding/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-06-03-Deep_And_Shallow_Copy/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -819,139 +431,11 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-01-01-Vector">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-01-Vector" prefix_auto="0" extension_auto="0"/>
+			<Target title="edit_cache">
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-01-Vector"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-01-01-Vector/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-01-Vector" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-01-Vector/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-04-07-Stack">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-07-Stack" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-07-Stack"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-04-07-Stack/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-07-Stack" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-07-Stack/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-01-02-Chat">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-02-Chat" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-02-Chat"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-01-02-Chat/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-02-Chat" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-02-Chat/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1003,52 +487,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-04-03-List">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-03-List" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-03-List"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-04-03-List/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-03-List" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-03-List/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="Hafta-02-04-Templates">
 				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-04-Templates" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
@@ -1095,8 +533,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-03-02-Single_Responsibility_Princeple">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-03-02-Single_Responsibility_Princeple" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-01-03-Animals">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-03-Animals" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1112,14 +550,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-03-02-Single_Responsibility_Princeple"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-03-Animals"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-03-02-Single_Responsibility_Princeple/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-03-02-Single_Responsibility_Princeple" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-01-03-Animals/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-03-Animals" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1135,37 +573,24 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-03-02-Single_Responsibility_Princeple/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-03-Animals/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-04-10-Open_Closed_Principle">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-10-Open_Closed_Principle" prefix_auto="0" extension_auto="0"/>
+			<Target title="rebuild_cache">
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-10-Open_Closed_Principle"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-04-10-Open_Closed_Principle/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-10-Open_Closed_Principle" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-06-01-Object_Pool">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-06-01-Object_Pool" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1181,14 +606,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-10-Open_Closed_Principle/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-06-01-Object_Pool"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-04-08-Queue">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-08-Queue" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-06-01-Object_Pool/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-06-01-Object_Pool" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1204,14 +629,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-08-Queue"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-06-01-Object_Pool/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-04-08-Queue/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-08-Queue" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-02-01-Virtual_Functions">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-01-Virtual_Functions" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1227,14 +652,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-08-Queue/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-01-Virtual_Functions"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Hafta-04-05-Set">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-05-Set" prefix_auto="0" extension_auto="0"/>
+			<Target title="Hafta-02-01-Virtual_Functions/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-01-Virtual_Functions" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -1250,76 +675,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-05-Set"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-04-05-Set/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-05-Set" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-05-Set/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-04-01-Array">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-01-Array" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-01-Array"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Hafta-04-01-Array/fast">
-				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-01-Array" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-01-Array/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-01-Virtual_Functions/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1371,6 +727,420 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Hafta-02-03-Abstract">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-03-Abstract" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-03-Abstract"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-02-03-Abstract/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-03-Abstract" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-03-Abstract/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-01-02-Chat">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-02-Chat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-02-Chat"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-01-02-Chat/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-02-Chat" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-02-Chat/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-02-05-Move_Semantics">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-05-Move_Semantics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-05-Move_Semantics"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-02-05-Move_Semantics/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-05-Move_Semantics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-05-Move_Semantics/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-01-Array">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-01-Array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-01-Array"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-01-Array/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-01-Array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-01-Array/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-03-List">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-03-List" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-03-List"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-03-List/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-03-List" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-03-List/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-02-02-Pure_Virtual_Functions">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-02-Pure_Virtual_Functions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-02-Pure_Virtual_Functions"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-02-02-Pure_Virtual_Functions/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-02-02-Pure_Virtual_Functions" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-02-02-Pure_Virtual_Functions/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-03-02-Single_Responsibility_Princeple">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-03-02-Single_Responsibility_Princeple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-03-02-Single_Responsibility_Princeple"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-03-02-Single_Responsibility_Princeple/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-03-02-Single_Responsibility_Princeple" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-03-02-Single_Responsibility_Princeple/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-09-Priority_Queue">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-09-Priority_Queue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-09-Priority_Queue"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-09-Priority_Queue/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-09-Priority_Queue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-09-Priority_Queue/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-01-01-Vector">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-01-Vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-01-Vector"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-01-01-Vector/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-01-01-Vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-01-01-Vector/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Hafta-04-04-Multimap">
 				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-04-Multimap" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
@@ -1412,6 +1182,282 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-04-Multimap/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-08-Queue">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-08-Queue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-08-Queue"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-08-Queue/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-08-Queue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-08-Queue/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-10-Open_Closed_Principle">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-10-Open_Closed_Principle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-10-Open_Closed_Principle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-10-Open_Closed_Principle/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-10-Open_Closed_Principle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-10-Open_Closed_Principle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-05-Set">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-05-Set" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-05-Set"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-05-Set/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-05-Set" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-05-Set/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-06-Multiset">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-06-Multiset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-06-Multiset"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-06-Multiset/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-06-Multiset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-06-Multiset/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-07-Stack">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-07-Stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-07-Stack"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-04-07-Stack/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-04-07-Stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-04-07-Stack/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-05-01-Thread_Safe_Singleton">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-01-Thread_Safe_Singleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-01-Thread_Safe_Singleton"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hafta-05-01-Thread_Safe_Singleton/fast">
+				<Option output="/home/atuash/Modern_Cpp/cmake-build-debug/Hafta-05-01-Thread_Safe_Singleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/atuash/Modern_Cpp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hafta-05-01-Thread_Safe_Singleton/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/atuash/Modern_Cpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1583,6 +1629,9 @@
 		</Unit>
 		<Unit filename="/home/atuash/Modern_Cpp/Hafta-06/04-Initializers/sinif.h">
 			<Option target="Hafta-06-04-Initializers"/>
+		</Unit>
+		<Unit filename="/home/atuash/Modern_Cpp/Hafta-07/01-Builder/main.cpp">
+			<Option target="Hafta-07-01-Builder"/>
 		</Unit>
 		<Unit filename="/home/atuash/Modern_Cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

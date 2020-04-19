@@ -27,30 +27,30 @@ int main()
     std::cout << "----------------------------------------------" <<std::endl;
     std::cout << std::endl;
 
-    sinif *sinif5 = new sinif(1,2,"3");
-    sinif *sinif6 = sinif5;
-//    sinif *sinif7;
-//    *sinif7 = *sinif5; //Hata veriyor
-    sinif *sinif8 = new sinif(*sinif5);
-    sinif *sinif9 = new sinif(1,2,"3");
-    *sinif9 = *sinif5;
-
-    std::cout << "sinif5: ";sinif5->yazdir();
-    std::cout << "sinif6: ";sinif6->yazdir();
-//    std::cout << "sinif7: ";sinif7->yazdir();
-    std::cout << "sinif8: ";sinif8->yazdir();
-    std::cout << "sinif9: ";sinif9->yazdir();
-
-    sinif5->a = 10;
-    *sinif5->b = 10;
-    sinif5->c = "10";
-    std::cout << std::endl;
-
-    std::cout << "sinif5: ";sinif5->yazdir();
-    std::cout << "sinif6: ";sinif6->yazdir();
-//    std::cout << "sinif7: ";sinif7->yazdir();
-    std::cout << "sinif8: ";sinif8->yazdir();
-    std::cout << "sinif9: ";sinif9->yazdir();
+//    sinif *sinif5 = new sinif(1,2,"3");
+//    sinif *sinif6 = sinif5;
+////    sinif *sinif7;
+////    *sinif7 = *sinif5; //Hata veriyor
+//    sinif *sinif8 = new sinif(*sinif5);
+//    sinif *sinif9 = new sinif(1,2,"3");
+//    *sinif9 = *sinif5;
+//
+//    std::cout << "sinif5: ";sinif5->yazdir();
+//    std::cout << "sinif6: ";sinif6->yazdir();
+////    std::cout << "sinif7: ";sinif7->yazdir();
+//    std::cout << "sinif8: ";sinif8->yazdir();
+//    std::cout << "sinif9: ";sinif9->yazdir();
+//
+//    sinif5->a = 10;
+//    *sinif5->b = 10;
+//    sinif5->c = "10";
+//    std::cout << std::endl;
+//
+//    std::cout << "sinif5: ";sinif5->yazdir();
+//    std::cout << "sinif6: ";sinif6->yazdir();
+////    std::cout << "sinif7: ";sinif7->yazdir();
+//    std::cout << "sinif8: ";sinif8->yazdir();
+//    std::cout << "sinif9: ";sinif9->yazdir();
 
     return 0;
 }

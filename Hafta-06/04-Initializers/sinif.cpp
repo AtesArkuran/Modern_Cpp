@@ -10,6 +10,7 @@ sinif::sinif()
     a = 0;
     b = new int(0);
     c = "0";
+    d = new std::string("a");
 }
 
 // Constructer Overloading
@@ -21,9 +22,10 @@ sinif::sinif(const sinif& s)
     a = s.a;
     b = new int(*s.b);
     c = s.c;
+    d = new std::string(*s.d);
 }
 
 void sinif::yazdir()
 {
-    std::cout << "a: " << this->a << " b: " << this->b << " *b: " << *this->b << " c: " << this->c << std::endl;
+    std::cout << "a: " << this->a << " b: " << this->b << " *b: " << *this->b << " &c: " << &this->c  << " c: " << this->c << this->d  << " d: " << *this->d << std::endl;
 }

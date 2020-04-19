@@ -9,6 +9,7 @@ public:
     int a;
     int *b;
     std::string c;
+    std::string *d;
 
     sinif();
     sinif(int a, int b, const std::string &c);

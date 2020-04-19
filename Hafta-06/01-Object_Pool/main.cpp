@@ -48,8 +48,8 @@ private:
     std::list<Esya*> esyalar;
 
     static Dukkan* instance;
-    static int eleman_sayisi;
-    static int mevcut_eleman_sayisi;
+    int eleman_sayisi = 0;
+    int mevcut_eleman_sayisi = 0;
     int max_size = 3;
     Dukkan() {}
 
@@ -61,7 +61,6 @@ public:
         if (instance == 0)
         {
             instance = new Dukkan;
-            eleman_sayisi = 0;
         }
         _mtx.unlock();
         return instance;
@@ -124,8 +123,6 @@ public:
 };
 
 Dukkan* Dukkan::instance = 0;
-int Dukkan::eleman_sayisi = 0;
-int Dukkan::mevcut_eleman_sayisi = 0;
 
 void esyaYazdir(std::string name){
     Dukkan* dukkan = Dukkan::getInstance();
