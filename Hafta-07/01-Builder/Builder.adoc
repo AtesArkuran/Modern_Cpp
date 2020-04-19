@@ -1,3 +1,13 @@
+== Ödev-05
+
+=== Builder Pattern
+
+Bu örnekte Builder Pattern ile oyun için karakter modeli oluşturulması ve üretilmesi anlatılmaktadır.
+
+İnsan, köpek ve kuş olacak şekilde 3 tip model oluşturulmaktadır.
+
+[source,cpp]
+----
 #include <iostream>
 
 class Model {                               // <1>
@@ -217,3 +227,98 @@ int main() {
 
     return 0;
 }
+----
+<1> Model sınıfının tanımlanması.
+<2> Builder sınıfının tanımlanması. Alt builder sınıflar bu sınıftaki fonksiyonları kullanmaktadır.
+<3> InsanBuilder sınıfının tanımlanması.
+<4> KopekBuilder sınıfının tanımlanması.
+<5> KusBuilder sınıfının tanımlanması.
+<6> Creator sınıfının tanımlanması
+<7> Burada tanımlanan olustur() fonksiyonu ile Creator sınıfı örneği istenilen builderı oluşturur.
+
+==== UML Diagramı
+
+[plantuml, Builder, png]
+----
+Class Model {
+    -std::string tur;
+    -int kafa_uzunluk_x;
+    -int kafa_uzunluk_y;
+    -int kafa_uzunluk_z;
+    -int govde_uzunluk_x;
+    -int govde_uzunluk_y;
+    -int govde_uzunluk_z;
+    -int kol_sayisi;
+    -int kol_uzunluk_x;
+    -int kol_uzunluk_y;
+    -int kol_uzunluk_z;
+    -int bacak_sayisi;
+    -int bacak_uzunluk_x;
+    -int bacak_uzunluk_y;
+    -int bacak_uzunluk_z;
+    -int kanat_sayisi;
+    -int kanat_uzunluk_x;
+    -int kanat_uzunluk_y;
+    -int kanat_uzunluk_z;
+
+    +void turAta(string)
+    +void kafayiOlustur(int, int, int)
+    +void govdeyiOlustur(int, int, int)
+    +void kollariOlustur(int, int, int, int)
+    +void bacaklariOlustur(int, int, int, int)
+    +void kanatlariOlustur(int, int, int, int)
+    +string modelVerileri();
+}
+
+Abstract Builder{
+    #Model model;
+
+    +Model modelOlustur()
+    +{Abstract} void buildTur()
+    +{Abstract} void buildKafa()
+    +{Abstract} void buildGovde()
+    +{Abstract} void buildKol()
+    +{Abstract} void buildBacak()
+    +{Abstract} void buildKanat()
+}
+
+class InsanBuilder{
+    +void buildTur()
+    +void buildKafa()
+    +void buildGovde()
+    +void buildKol()
+    +void buildBacak()
+    +void buildKanat()
+}
+
+class KopekBuilder{
+    +void buildTur()
+    +void buildKafa()
+    +void buildGovde()
+    +void buildKol()
+    +void buildBacak()
+    +void buildKanat()
+}
+
+class KusBuilder{
+    +void buildTur()
+    +void buildKafa()
+    +void buildGovde()
+    +void buildKol()
+    +void buildBacak()
+    +void buildKanat()
+}
+
+class Creator {
+    -Builder *builder;
+    +void set(Builder *b)
+    +void olustur()
+    +Model uret()
+}
+
+Creator o- Builder
+Builder *- Model
+Builder <|.. InsanBuilder
+Builder <|.. KopekBuilder
+Builder <|.. KusBuilder
+----
