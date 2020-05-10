@@ -1,3 +1,4 @@
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-08-01-Iterator.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-07-01-Builder.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-04-Initializers.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-05-Late_Binding.dir
@@ -14,6 +15,7 @@
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-01-Object_Pool.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-01-Virtual_Functions.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-08-02-Observer.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-02-Deque.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-03-Abstract.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-02-Chat.dir

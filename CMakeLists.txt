@@ -68,3 +68,7 @@ add_executable(Hafta-06-03-Deep_And_Shallow_Copy Hafta-06/03-Deep_And_Shallow_Co
 add_executable(Hafta-06-04-Initializers Hafta-06/04-Initializers/main.cpp Hafta-06/04-Initializers/sinif.cpp Hafta-06/04-Initializers/sinif.h)
 
 add_executable(Hafta-07-01-Builder Hafta-07/01-Builder/main.cpp)
+
+add_executable(Hafta-08-01-Iterator Hafta-08/01-Iterator/main.cpp)
+
+add_executable(Hafta-08-02-Observer Hafta-08/02-Observer/main.cpp)

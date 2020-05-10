@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Hafta-08-01-Iterator
+
+# Build rule for target.
+Hafta-08-01-Iterator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-08-01-Iterator
+.PHONY : Hafta-08-01-Iterator
+
+# fast build rule for target.
+Hafta-08-01-Iterator/fast:
+	$(MAKE) -f CMakeFiles/Hafta-08-01-Iterator.dir/build.make CMakeFiles/Hafta-08-01-Iterator.dir/build
+.PHONY : Hafta-08-01-Iterator/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-07-01-Builder
 
 # Build rule for target.
@@ -291,6 +304,19 @@ Hafta-02-01-Virtual_Functions: cmake_check_build_system
 Hafta-02-01-Virtual_Functions/fast:
 	$(MAKE) -f CMakeFiles/Hafta-02-01-Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-01-Virtual_Functions.dir/build
 .PHONY : Hafta-02-01-Virtual_Functions/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-08-02-Observer
+
+# Build rule for target.
+Hafta-08-02-Observer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-08-02-Observer
+.PHONY : Hafta-08-02-Observer
+
+# fast build rule for target.
+Hafta-08-02-Observer/fast:
+	$(MAKE) -f CMakeFiles/Hafta-08-02-Observer.dir/build.make CMakeFiles/Hafta-08-02-Observer.dir/build
+.PHONY : Hafta-08-02-Observer/fast
 
 #=============================================================================
 # Target rules for targets named Hafta-04-02-Deque
@@ -1704,12 +1730,67 @@ Hafta-07/01-Builder/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-07-01-Builder.dir/build.make CMakeFiles/Hafta-07-01-Builder.dir/Hafta-07/01-Builder/main.cpp.s
 .PHONY : Hafta-07/01-Builder/main.cpp.s
 
+Hafta-08/01-Iterator/main.o: Hafta-08/01-Iterator/main.cpp.o
+
+.PHONY : Hafta-08/01-Iterator/main.o
+
+# target to build an object file
+Hafta-08/01-Iterator/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-08-01-Iterator.dir/build.make CMakeFiles/Hafta-08-01-Iterator.dir/Hafta-08/01-Iterator/main.cpp.o
+.PHONY : Hafta-08/01-Iterator/main.cpp.o
+
+Hafta-08/01-Iterator/main.i: Hafta-08/01-Iterator/main.cpp.i
+
+.PHONY : Hafta-08/01-Iterator/main.i
+
+# target to preprocess a source file
+Hafta-08/01-Iterator/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-08-01-Iterator.dir/build.make CMakeFiles/Hafta-08-01-Iterator.dir/Hafta-08/01-Iterator/main.cpp.i
+.PHONY : Hafta-08/01-Iterator/main.cpp.i
+
+Hafta-08/01-Iterator/main.s: Hafta-08/01-Iterator/main.cpp.s
+
+.PHONY : Hafta-08/01-Iterator/main.s
+
+# target to generate assembly for a file
+Hafta-08/01-Iterator/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-08-01-Iterator.dir/build.make CMakeFiles/Hafta-08-01-Iterator.dir/Hafta-08/01-Iterator/main.cpp.s
+.PHONY : Hafta-08/01-Iterator/main.cpp.s
+
+Hafta-08/02-Observer/main.o: Hafta-08/02-Observer/main.cpp.o
+
+.PHONY : Hafta-08/02-Observer/main.o
+
+# target to build an object file
+Hafta-08/02-Observer/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-08-02-Observer.dir/build.make CMakeFiles/Hafta-08-02-Observer.dir/Hafta-08/02-Observer/main.cpp.o
+.PHONY : Hafta-08/02-Observer/main.cpp.o
+
+Hafta-08/02-Observer/main.i: Hafta-08/02-Observer/main.cpp.i
+
+.PHONY : Hafta-08/02-Observer/main.i
+
+# target to preprocess a source file
+Hafta-08/02-Observer/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-08-02-Observer.dir/build.make CMakeFiles/Hafta-08-02-Observer.dir/Hafta-08/02-Observer/main.cpp.i
+.PHONY : Hafta-08/02-Observer/main.cpp.i
+
+Hafta-08/02-Observer/main.s: Hafta-08/02-Observer/main.cpp.s
+
+.PHONY : Hafta-08/02-Observer/main.s
+
+# target to generate assembly for a file
+Hafta-08/02-Observer/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-08-02-Observer.dir/build.make CMakeFiles/Hafta-08-02-Observer.dir/Hafta-08/02-Observer/main.cpp.s
+.PHONY : Hafta-08/02-Observer/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... Hafta-08-01-Iterator"
 	@echo "... Hafta-07-01-Builder"
 	@echo "... Hafta-06-04-Initializers"
 	@echo "... Hafta-05-05-Late_Binding"
@@ -1726,6 +1807,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Hafta-06-01-Object_Pool"
 	@echo "... Hafta-02-01-Virtual_Functions"
+	@echo "... Hafta-08-02-Observer"
 	@echo "... Hafta-04-02-Deque"
 	@echo "... Hafta-02-03-Abstract"
 	@echo "... Hafta-01-02-Chat"
@@ -1875,6 +1957,12 @@ help:
 	@echo "... Hafta-07/01-Builder/main.o"
 	@echo "... Hafta-07/01-Builder/main.i"
 	@echo "... Hafta-07/01-Builder/main.s"
+	@echo "... Hafta-08/01-Iterator/main.o"
+	@echo "... Hafta-08/01-Iterator/main.i"
+	@echo "... Hafta-08/01-Iterator/main.s"
+	@echo "... Hafta-08/02-Observer/main.o"
+	@echo "... Hafta-08/02-Observer/main.i"
+	@echo "... Hafta-08/02-Observer/main.s"
 .PHONY : help
 
 

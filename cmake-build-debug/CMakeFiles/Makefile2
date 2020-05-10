@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Hafta-08-01-Iterator.dir/all
 all: CMakeFiles/Hafta-07-01-Builder.dir/all
 all: CMakeFiles/Hafta-06-04-Initializers.dir/all
 all: CMakeFiles/Hafta-05-05-Late_Binding.dir/all
@@ -67,6 +68,7 @@ all: CMakeFiles/Hafta-02-04-Templates.dir/all
 all: CMakeFiles/Hafta-01-03-Animals.dir/all
 all: CMakeFiles/Hafta-06-01-Object_Pool.dir/all
 all: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/all
+all: CMakeFiles/Hafta-08-02-Observer.dir/all
 all: CMakeFiles/Hafta-04-02-Deque.dir/all
 all: CMakeFiles/Hafta-02-03-Abstract.dir/all
 all: CMakeFiles/Hafta-01-02-Chat.dir/all
@@ -93,6 +95,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Hafta-08-01-Iterator.dir/clean
 clean: CMakeFiles/Hafta-07-01-Builder.dir/clean
 clean: CMakeFiles/Hafta-06-04-Initializers.dir/clean
 clean: CMakeFiles/Hafta-05-05-Late_Binding.dir/clean
@@ -107,6 +110,7 @@ clean: CMakeFiles/Hafta-02-04-Templates.dir/clean
 clean: CMakeFiles/Hafta-01-03-Animals.dir/clean
 clean: CMakeFiles/Hafta-06-01-Object_Pool.dir/clean
 clean: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean
+clean: CMakeFiles/Hafta-08-02-Observer.dir/clean
 clean: CMakeFiles/Hafta-04-02-Deque.dir/clean
 clean: CMakeFiles/Hafta-02-03-Abstract.dir/clean
 clean: CMakeFiles/Hafta-01-02-Chat.dir/clean
@@ -126,6 +130,33 @@ clean: CMakeFiles/Hafta-04-07-Stack.dir/clean
 clean: CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-08-01-Iterator.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-08-01-Iterator.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-08-01-Iterator.dir/build.make CMakeFiles/Hafta-08-01-Iterator.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-08-01-Iterator.dir/build.make CMakeFiles/Hafta-08-01-Iterator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target Hafta-08-01-Iterator"
+.PHONY : CMakeFiles/Hafta-08-01-Iterator.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-08-01-Iterator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-08-01-Iterator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-08-01-Iterator.dir/rule
+
+# Convenience name for target.
+Hafta-08-01-Iterator: CMakeFiles/Hafta-08-01-Iterator.dir/rule
+
+.PHONY : Hafta-08-01-Iterator
+
+# clean rule for target.
+CMakeFiles/Hafta-08-01-Iterator.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-08-01-Iterator.dir/build.make CMakeFiles/Hafta-08-01-Iterator.dir/clean
+.PHONY : CMakeFiles/Hafta-08-01-Iterator.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-07-01-Builder.dir
@@ -504,6 +535,33 @@ Hafta-02-01-Virtual_Functions: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/rule
 CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean:
 	$(MAKE) -f CMakeFiles/Hafta-02-01-Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean
 .PHONY : CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-08-02-Observer.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-08-02-Observer.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-08-02-Observer.dir/build.make CMakeFiles/Hafta-08-02-Observer.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-08-02-Observer.dir/build.make CMakeFiles/Hafta-08-02-Observer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target Hafta-08-02-Observer"
+.PHONY : CMakeFiles/Hafta-08-02-Observer.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-08-02-Observer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-08-02-Observer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-08-02-Observer.dir/rule
+
+# Convenience name for target.
+Hafta-08-02-Observer: CMakeFiles/Hafta-08-02-Observer.dir/rule
+
+.PHONY : Hafta-08-02-Observer
+
+# clean rule for target.
+CMakeFiles/Hafta-08-02-Observer.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-08-02-Observer.dir/build.make CMakeFiles/Hafta-08-02-Observer.dir/clean
+.PHONY : CMakeFiles/Hafta-08-02-Observer.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-04-02-Deque.dir

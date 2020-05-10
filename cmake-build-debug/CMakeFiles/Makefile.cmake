@@ -54,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Hafta-08-01-Iterator.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-07-01-Builder.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-06-04-Initializers.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-05-05-Late_Binding.dir/DependInfo.cmake"
@@ -68,6 +69,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Hafta-01-03-Animals.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-06-01-Object_Pool.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-01-Virtual_Functions.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-08-02-Observer.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-04-02-Deque.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-02-03-Abstract.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-01-02-Chat.dir/DependInfo.cmake"
