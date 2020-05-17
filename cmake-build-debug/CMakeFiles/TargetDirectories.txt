@@ -1,3 +1,5 @@
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-09-02-Memento.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-09-01-Command.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-08-01-Iterator.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-07-01-Builder.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-04-Initializers.dir

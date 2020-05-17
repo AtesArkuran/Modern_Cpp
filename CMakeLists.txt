@@ -72,3 +72,7 @@ add_executable(Hafta-07-01-Builder Hafta-07/01-Builder/main.cpp)
 add_executable(Hafta-08-01-Iterator Hafta-08/01-Iterator/main.cpp)
 
 add_executable(Hafta-08-02-Observer Hafta-08/02-Observer/main.cpp)
+
+add_executable(Hafta-09-01-Command Hafta-09/01-Command/main.cpp)
+
+add_executable(Hafta-09-02-Memento Hafta-09/02-Memento/main.cpp)

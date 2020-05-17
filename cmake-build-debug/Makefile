@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Hafta-09-02-Memento
+
+# Build rule for target.
+Hafta-09-02-Memento: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-09-02-Memento
+.PHONY : Hafta-09-02-Memento
+
+# fast build rule for target.
+Hafta-09-02-Memento/fast:
+	$(MAKE) -f CMakeFiles/Hafta-09-02-Memento.dir/build.make CMakeFiles/Hafta-09-02-Memento.dir/build
+.PHONY : Hafta-09-02-Memento/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-09-01-Command
+
+# Build rule for target.
+Hafta-09-01-Command: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-09-01-Command
+.PHONY : Hafta-09-01-Command
+
+# fast build rule for target.
+Hafta-09-01-Command/fast:
+	$(MAKE) -f CMakeFiles/Hafta-09-01-Command.dir/build.make CMakeFiles/Hafta-09-01-Command.dir/build
+.PHONY : Hafta-09-01-Command/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-08-01-Iterator
 
 # Build rule for target.
@@ -1784,12 +1810,68 @@ Hafta-08/02-Observer/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-08-02-Observer.dir/build.make CMakeFiles/Hafta-08-02-Observer.dir/Hafta-08/02-Observer/main.cpp.s
 .PHONY : Hafta-08/02-Observer/main.cpp.s
 
+Hafta-09/01-Command/main.o: Hafta-09/01-Command/main.cpp.o
+
+.PHONY : Hafta-09/01-Command/main.o
+
+# target to build an object file
+Hafta-09/01-Command/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-09-01-Command.dir/build.make CMakeFiles/Hafta-09-01-Command.dir/Hafta-09/01-Command/main.cpp.o
+.PHONY : Hafta-09/01-Command/main.cpp.o
+
+Hafta-09/01-Command/main.i: Hafta-09/01-Command/main.cpp.i
+
+.PHONY : Hafta-09/01-Command/main.i
+
+# target to preprocess a source file
+Hafta-09/01-Command/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-09-01-Command.dir/build.make CMakeFiles/Hafta-09-01-Command.dir/Hafta-09/01-Command/main.cpp.i
+.PHONY : Hafta-09/01-Command/main.cpp.i
+
+Hafta-09/01-Command/main.s: Hafta-09/01-Command/main.cpp.s
+
+.PHONY : Hafta-09/01-Command/main.s
+
+# target to generate assembly for a file
+Hafta-09/01-Command/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-09-01-Command.dir/build.make CMakeFiles/Hafta-09-01-Command.dir/Hafta-09/01-Command/main.cpp.s
+.PHONY : Hafta-09/01-Command/main.cpp.s
+
+Hafta-09/02-Memento/main.o: Hafta-09/02-Memento/main.cpp.o
+
+.PHONY : Hafta-09/02-Memento/main.o
+
+# target to build an object file
+Hafta-09/02-Memento/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-09-02-Memento.dir/build.make CMakeFiles/Hafta-09-02-Memento.dir/Hafta-09/02-Memento/main.cpp.o
+.PHONY : Hafta-09/02-Memento/main.cpp.o
+
+Hafta-09/02-Memento/main.i: Hafta-09/02-Memento/main.cpp.i
+
+.PHONY : Hafta-09/02-Memento/main.i
+
+# target to preprocess a source file
+Hafta-09/02-Memento/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-09-02-Memento.dir/build.make CMakeFiles/Hafta-09-02-Memento.dir/Hafta-09/02-Memento/main.cpp.i
+.PHONY : Hafta-09/02-Memento/main.cpp.i
+
+Hafta-09/02-Memento/main.s: Hafta-09/02-Memento/main.cpp.s
+
+.PHONY : Hafta-09/02-Memento/main.s
+
+# target to generate assembly for a file
+Hafta-09/02-Memento/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-09-02-Memento.dir/build.make CMakeFiles/Hafta-09-02-Memento.dir/Hafta-09/02-Memento/main.cpp.s
+.PHONY : Hafta-09/02-Memento/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... Hafta-09-02-Memento"
+	@echo "... Hafta-09-01-Command"
 	@echo "... Hafta-08-01-Iterator"
 	@echo "... Hafta-07-01-Builder"
 	@echo "... Hafta-06-04-Initializers"
@@ -1963,6 +2045,12 @@ help:
 	@echo "... Hafta-08/02-Observer/main.o"
 	@echo "... Hafta-08/02-Observer/main.i"
 	@echo "... Hafta-08/02-Observer/main.s"
+	@echo "... Hafta-09/01-Command/main.o"
+	@echo "... Hafta-09/01-Command/main.i"
+	@echo "... Hafta-09/01-Command/main.s"
+	@echo "... Hafta-09/02-Memento/main.o"
+	@echo "... Hafta-09/02-Memento/main.i"
+	@echo "... Hafta-09/02-Memento/main.s"
 .PHONY : help
 
 

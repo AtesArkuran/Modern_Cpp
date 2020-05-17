@@ -54,6 +54,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Hafta-09-02-Memento.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-09-01-Command.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-08-01-Iterator.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-07-01-Builder.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-06-04-Initializers.dir/DependInfo.cmake"
