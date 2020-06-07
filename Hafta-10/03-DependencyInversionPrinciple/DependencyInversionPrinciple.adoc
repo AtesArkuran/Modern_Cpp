@@ -1,4 +1,4 @@
-== Ödev-07
+== Ödev-08
 
 === Dependency Inversion Prensibi
 

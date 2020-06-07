@@ -1,3 +1,14 @@
+== Ödev-08
+
+=== Decorator Pattern
+
+Bu örnekte bir oyundaki savaşçı ve düşmana zırh ve silah eklemsinin nasıl yapıldığı anlatılmaktadır. Bu örnek yapılırken
+Decorator Pattern kullanılmıştır.
+
+Savaşçı ve Düşman sınıflarına ekleme yapabilmek için SilahEklentisi ve ZırhEklentisi sınıfları kullanılmaktadır.
+
+[source,cpp]
+----
 #include <iostream>
 
 class Karakter                          // <1>
@@ -87,3 +98,85 @@ int main()
 
     return 0;
 }
+----
+<1> Karakter arayüzünün tanımlanması. Savaşçı ve Düşman sınıfları bu sınıf kullanılarak oluşturulur.
+<2> Savaşçı sınıfının tanımlanması.
+<3> Savaşçı sınıfının temel bilgilerini yazan fonksiyonun tanımlanması.
+<4> Düşman sınıfının tanımlanması.
+<5> Savaşçı sınıfının temel bilgilerini yazan fonksiyonun tanımlanması.
+<6> Silah Eklentisi sınıfının tanımlanması.
+<7> Karakterdeki mevcut bilgilere ek olarak hasar gücü ve silih tipini yazan fonksiyondur.
+<8> Zırh Eklentisi sınıfının tanımlanması.
+<9> Karakterdeki mevcut bilgilere ek olarak korumayı yazan fonksiyondur.
+
+*Program Çıktısı*
+----
+Savascinin
+İsmi: Kemal
+Cani: 100
+Hasar Gucu: 50
+Silah Tipi: Kilic
+Koruma: 100
+
+Dusmanin
+Cani: 50
+Hasar Gucu: 25
+Silah Tipi: Bicak
+Koruma: 25
+----
+
+==== UML Diagramı
+
+[plantuml, Decorator, png]
+----
+Interface Karakter
+{
+    +{abstract} void info()
+}
+
+class Savaşçı
+{
+    -string isim;
+    -int can;
+
+    +Savasci()
+    +Savasci(string &isim, int can)
+    +void info()
+}
+
+class Düşman
+{
+    -int can;
+
+    +Dusman()
+    +Dusman(int can)
+    +void info()
+}
+
+class SilahEklentisi
+{
+    -Karakter karakter;
+    -int hasarGucu;
+    -string silahTipi;
+
+    +SilahEklentisi(Karakter karakter, int hasarGucu, string &silahTipi)
+    +void info()
+}
+
+class ZırhEklentisi
+{
+    -Karakter karakter;
+    -int koruma;
+
+    +ZırhEklentisi(Karakter karakter, int koruma)
+    +void info()
+}
+
+Karakter <|... Savaşçı
+Karakter <|... Düşman
+SilahEklentisi o-- Karakter
+ZırhEklentisi o-- Karakter
+Karakter <|.. SilahEklentisi
+Karakter <|.. ZırhEklentisi
+----
+
