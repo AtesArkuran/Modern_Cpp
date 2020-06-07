@@ -53,6 +53,9 @@ CMAKE_BINARY_DIR = /home/atuash/Modern_Cpp/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/Hafta-10-04-Decorator.dir/all
+all: CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/all
+all: CMakeFiles/Hafta-10-02-IgorHomework.dir/all
 all: CMakeFiles/Hafta-09-02-Memento.dir/all
 all: CMakeFiles/Hafta-09-01-Command.dir/all
 all: CMakeFiles/Hafta-08-01-Iterator.dir/all
@@ -86,6 +89,7 @@ all: CMakeFiles/Hafta-04-08-Queue.dir/all
 all: CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/all
 all: CMakeFiles/Hafta-04-05-Set.dir/all
 all: CMakeFiles/Hafta-04-06-Multiset.dir/all
+all: CMakeFiles/Hafta-10-01-Metaprogramming.dir/all
 all: CMakeFiles/Hafta-04-07-Stack.dir/all
 all: CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/all
 
@@ -97,6 +101,9 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/Hafta-10-04-Decorator.dir/clean
+clean: CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/clean
+clean: CMakeFiles/Hafta-10-02-IgorHomework.dir/clean
 clean: CMakeFiles/Hafta-09-02-Memento.dir/clean
 clean: CMakeFiles/Hafta-09-01-Command.dir/clean
 clean: CMakeFiles/Hafta-08-01-Iterator.dir/clean
@@ -130,10 +137,92 @@ clean: CMakeFiles/Hafta-04-08-Queue.dir/clean
 clean: CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/clean
 clean: CMakeFiles/Hafta-04-05-Set.dir/clean
 clean: CMakeFiles/Hafta-04-06-Multiset.dir/clean
+clean: CMakeFiles/Hafta-10-01-Metaprogramming.dir/clean
 clean: CMakeFiles/Hafta-04-07-Stack.dir/clean
 clean: CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-10-04-Decorator.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-10-04-Decorator.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-10-04-Decorator.dir/build.make CMakeFiles/Hafta-10-04-Decorator.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-10-04-Decorator.dir/build.make CMakeFiles/Hafta-10-04-Decorator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=92,93 "Built target Hafta-10-04-Decorator"
+.PHONY : CMakeFiles/Hafta-10-04-Decorator.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-10-04-Decorator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-10-04-Decorator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-10-04-Decorator.dir/rule
+
+# Convenience name for target.
+Hafta-10-04-Decorator: CMakeFiles/Hafta-10-04-Decorator.dir/rule
+
+.PHONY : Hafta-10-04-Decorator
+
+# clean rule for target.
+CMakeFiles/Hafta-10-04-Decorator.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-10-04-Decorator.dir/build.make CMakeFiles/Hafta-10-04-Decorator.dir/clean
+.PHONY : CMakeFiles/Hafta-10-04-Decorator.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build.make CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build.make CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=90,91 "Built target Hafta-10-03-DependencyInversionPrinciple"
+.PHONY : CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/rule
+
+# Convenience name for target.
+Hafta-10-03-DependencyInversionPrinciple: CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/rule
+
+.PHONY : Hafta-10-03-DependencyInversionPrinciple
+
+# clean rule for target.
+CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build.make CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/clean
+.PHONY : CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-10-02-IgorHomework.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-10-02-IgorHomework.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=87,88,89 "Built target Hafta-10-02-IgorHomework"
+.PHONY : CMakeFiles/Hafta-10-02-IgorHomework.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-10-02-IgorHomework.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-10-02-IgorHomework.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-10-02-IgorHomework.dir/rule
+
+# Convenience name for target.
+Hafta-10-02-IgorHomework: CMakeFiles/Hafta-10-02-IgorHomework.dir/rule
+
+.PHONY : Hafta-10-02-IgorHomework
+
+# clean rule for target.
+CMakeFiles/Hafta-10-02-IgorHomework.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/clean
+.PHONY : CMakeFiles/Hafta-10-02-IgorHomework.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-09-02-Memento.dir
@@ -1025,6 +1114,33 @@ Hafta-04-06-Multiset: CMakeFiles/Hafta-04-06-Multiset.dir/rule
 CMakeFiles/Hafta-04-06-Multiset.dir/clean:
 	$(MAKE) -f CMakeFiles/Hafta-04-06-Multiset.dir/build.make CMakeFiles/Hafta-04-06-Multiset.dir/clean
 .PHONY : CMakeFiles/Hafta-04-06-Multiset.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-10-01-Metaprogramming.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-10-01-Metaprogramming.dir/all:
+	$(MAKE) -f CMakeFiles/Hafta-10-01-Metaprogramming.dir/build.make CMakeFiles/Hafta-10-01-Metaprogramming.dir/depend
+	$(MAKE) -f CMakeFiles/Hafta-10-01-Metaprogramming.dir/build.make CMakeFiles/Hafta-10-01-Metaprogramming.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles --progress-num=85,86 "Built target Hafta-10-01-Metaprogramming"
+.PHONY : CMakeFiles/Hafta-10-01-Metaprogramming.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-10-01-Metaprogramming.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-10-01-Metaprogramming.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Hafta-10-01-Metaprogramming.dir/rule
+
+# Convenience name for target.
+Hafta-10-01-Metaprogramming: CMakeFiles/Hafta-10-01-Metaprogramming.dir/rule
+
+.PHONY : Hafta-10-01-Metaprogramming
+
+# clean rule for target.
+CMakeFiles/Hafta-10-01-Metaprogramming.dir/clean:
+	$(MAKE) -f CMakeFiles/Hafta-10-01-Metaprogramming.dir/build.make CMakeFiles/Hafta-10-01-Metaprogramming.dir/clean
+.PHONY : CMakeFiles/Hafta-10-01-Metaprogramming.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-04-07-Stack.dir

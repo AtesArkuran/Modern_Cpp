@@ -1,3 +1,6 @@
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-04-Decorator.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-02-IgorHomework.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-09-02-Memento.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-09-01-Command.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-08-01-Iterator.dir
@@ -33,5 +36,6 @@
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-05-Set.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-06-Multiset.dir
+/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-01-Metaprogramming.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-07-Stack.dir
 /home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir

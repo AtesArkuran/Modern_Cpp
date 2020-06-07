@@ -76,3 +76,11 @@ add_executable(Hafta-08-02-Observer Hafta-08/02-Observer/main.cpp)
 add_executable(Hafta-09-01-Command Hafta-09/01-Command/main.cpp)
 
 add_executable(Hafta-09-02-Memento Hafta-09/02-Memento/main.cpp)
+
+add_executable(Hafta-10-01-Metaprogramming Hafta-10/01-Metaprogramming/main.cpp)
+
+add_executable(Hafta-10-02-IgorHomework Hafta-10/02-IgorHomework/dummy_strategy.cpp Hafta-10/02-IgorHomework/dummy_strategy.h Hafta-10/02-IgorHomework/png_strategy.cpp Hafta-10/02-IgorHomework/png_strategy.h Hafta-10/02-IgorHomework/strategy.h)
+
+add_executable(Hafta-10-03-DependencyInversionPrinciple Hafta-10/03-DependencyInversionPrinciple/main.cpp)
+
+add_executable(Hafta-10-04-Decorator Hafta-10/04-Decorator/main.cpp)

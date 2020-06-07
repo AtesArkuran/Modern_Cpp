@@ -54,6 +54,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Hafta-10-04-Decorator.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-10-02-IgorHomework.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-09-02-Memento.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-09-01-Command.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-08-01-Iterator.dir/DependInfo.cmake"
@@ -87,6 +90,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-04-05-Set.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-04-06-Multiset.dir/DependInfo.cmake"
+  "CMakeFiles/Hafta-10-01-Metaprogramming.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-04-07-Stack.dir/DependInfo.cmake"
   "CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/DependInfo.cmake"
   )

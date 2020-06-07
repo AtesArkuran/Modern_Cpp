@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Hafta-10-04-Decorator
+
+# Build rule for target.
+Hafta-10-04-Decorator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-10-04-Decorator
+.PHONY : Hafta-10-04-Decorator
+
+# fast build rule for target.
+Hafta-10-04-Decorator/fast:
+	$(MAKE) -f CMakeFiles/Hafta-10-04-Decorator.dir/build.make CMakeFiles/Hafta-10-04-Decorator.dir/build
+.PHONY : Hafta-10-04-Decorator/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-10-03-DependencyInversionPrinciple
+
+# Build rule for target.
+Hafta-10-03-DependencyInversionPrinciple: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-10-03-DependencyInversionPrinciple
+.PHONY : Hafta-10-03-DependencyInversionPrinciple
+
+# fast build rule for target.
+Hafta-10-03-DependencyInversionPrinciple/fast:
+	$(MAKE) -f CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build.make CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build
+.PHONY : Hafta-10-03-DependencyInversionPrinciple/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-10-02-IgorHomework
+
+# Build rule for target.
+Hafta-10-02-IgorHomework: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-10-02-IgorHomework
+.PHONY : Hafta-10-02-IgorHomework
+
+# fast build rule for target.
+Hafta-10-02-IgorHomework/fast:
+	$(MAKE) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/build
+.PHONY : Hafta-10-02-IgorHomework/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-09-02-Memento
 
 # Build rule for target.
@@ -538,6 +577,19 @@ Hafta-04-06-Multiset: cmake_check_build_system
 Hafta-04-06-Multiset/fast:
 	$(MAKE) -f CMakeFiles/Hafta-04-06-Multiset.dir/build.make CMakeFiles/Hafta-04-06-Multiset.dir/build
 .PHONY : Hafta-04-06-Multiset/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-10-01-Metaprogramming
+
+# Build rule for target.
+Hafta-10-01-Metaprogramming: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Hafta-10-01-Metaprogramming
+.PHONY : Hafta-10-01-Metaprogramming
+
+# fast build rule for target.
+Hafta-10-01-Metaprogramming/fast:
+	$(MAKE) -f CMakeFiles/Hafta-10-01-Metaprogramming.dir/build.make CMakeFiles/Hafta-10-01-Metaprogramming.dir/build
+.PHONY : Hafta-10-01-Metaprogramming/fast
 
 #=============================================================================
 # Target rules for targets named Hafta-04-07-Stack
@@ -1864,12 +1916,150 @@ Hafta-09/02-Memento/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Hafta-09-02-Memento.dir/build.make CMakeFiles/Hafta-09-02-Memento.dir/Hafta-09/02-Memento/main.cpp.s
 .PHONY : Hafta-09/02-Memento/main.cpp.s
 
+Hafta-10/01-Metaprogramming/main.o: Hafta-10/01-Metaprogramming/main.cpp.o
+
+.PHONY : Hafta-10/01-Metaprogramming/main.o
+
+# target to build an object file
+Hafta-10/01-Metaprogramming/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-10-01-Metaprogramming.dir/build.make CMakeFiles/Hafta-10-01-Metaprogramming.dir/Hafta-10/01-Metaprogramming/main.cpp.o
+.PHONY : Hafta-10/01-Metaprogramming/main.cpp.o
+
+Hafta-10/01-Metaprogramming/main.i: Hafta-10/01-Metaprogramming/main.cpp.i
+
+.PHONY : Hafta-10/01-Metaprogramming/main.i
+
+# target to preprocess a source file
+Hafta-10/01-Metaprogramming/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-10-01-Metaprogramming.dir/build.make CMakeFiles/Hafta-10-01-Metaprogramming.dir/Hafta-10/01-Metaprogramming/main.cpp.i
+.PHONY : Hafta-10/01-Metaprogramming/main.cpp.i
+
+Hafta-10/01-Metaprogramming/main.s: Hafta-10/01-Metaprogramming/main.cpp.s
+
+.PHONY : Hafta-10/01-Metaprogramming/main.s
+
+# target to generate assembly for a file
+Hafta-10/01-Metaprogramming/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-10-01-Metaprogramming.dir/build.make CMakeFiles/Hafta-10-01-Metaprogramming.dir/Hafta-10/01-Metaprogramming/main.cpp.s
+.PHONY : Hafta-10/01-Metaprogramming/main.cpp.s
+
+Hafta-10/02-IgorHomework/dummy_strategy.o: Hafta-10/02-IgorHomework/dummy_strategy.cpp.o
+
+.PHONY : Hafta-10/02-IgorHomework/dummy_strategy.o
+
+# target to build an object file
+Hafta-10/02-IgorHomework/dummy_strategy.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/Hafta-10/02-IgorHomework/dummy_strategy.cpp.o
+.PHONY : Hafta-10/02-IgorHomework/dummy_strategy.cpp.o
+
+Hafta-10/02-IgorHomework/dummy_strategy.i: Hafta-10/02-IgorHomework/dummy_strategy.cpp.i
+
+.PHONY : Hafta-10/02-IgorHomework/dummy_strategy.i
+
+# target to preprocess a source file
+Hafta-10/02-IgorHomework/dummy_strategy.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/Hafta-10/02-IgorHomework/dummy_strategy.cpp.i
+.PHONY : Hafta-10/02-IgorHomework/dummy_strategy.cpp.i
+
+Hafta-10/02-IgorHomework/dummy_strategy.s: Hafta-10/02-IgorHomework/dummy_strategy.cpp.s
+
+.PHONY : Hafta-10/02-IgorHomework/dummy_strategy.s
+
+# target to generate assembly for a file
+Hafta-10/02-IgorHomework/dummy_strategy.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/Hafta-10/02-IgorHomework/dummy_strategy.cpp.s
+.PHONY : Hafta-10/02-IgorHomework/dummy_strategy.cpp.s
+
+Hafta-10/02-IgorHomework/png_strategy.o: Hafta-10/02-IgorHomework/png_strategy.cpp.o
+
+.PHONY : Hafta-10/02-IgorHomework/png_strategy.o
+
+# target to build an object file
+Hafta-10/02-IgorHomework/png_strategy.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/Hafta-10/02-IgorHomework/png_strategy.cpp.o
+.PHONY : Hafta-10/02-IgorHomework/png_strategy.cpp.o
+
+Hafta-10/02-IgorHomework/png_strategy.i: Hafta-10/02-IgorHomework/png_strategy.cpp.i
+
+.PHONY : Hafta-10/02-IgorHomework/png_strategy.i
+
+# target to preprocess a source file
+Hafta-10/02-IgorHomework/png_strategy.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/Hafta-10/02-IgorHomework/png_strategy.cpp.i
+.PHONY : Hafta-10/02-IgorHomework/png_strategy.cpp.i
+
+Hafta-10/02-IgorHomework/png_strategy.s: Hafta-10/02-IgorHomework/png_strategy.cpp.s
+
+.PHONY : Hafta-10/02-IgorHomework/png_strategy.s
+
+# target to generate assembly for a file
+Hafta-10/02-IgorHomework/png_strategy.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/Hafta-10/02-IgorHomework/png_strategy.cpp.s
+.PHONY : Hafta-10/02-IgorHomework/png_strategy.cpp.s
+
+Hafta-10/03-DependencyInversionPrinciple/main.o: Hafta-10/03-DependencyInversionPrinciple/main.cpp.o
+
+.PHONY : Hafta-10/03-DependencyInversionPrinciple/main.o
+
+# target to build an object file
+Hafta-10/03-DependencyInversionPrinciple/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build.make CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/Hafta-10/03-DependencyInversionPrinciple/main.cpp.o
+.PHONY : Hafta-10/03-DependencyInversionPrinciple/main.cpp.o
+
+Hafta-10/03-DependencyInversionPrinciple/main.i: Hafta-10/03-DependencyInversionPrinciple/main.cpp.i
+
+.PHONY : Hafta-10/03-DependencyInversionPrinciple/main.i
+
+# target to preprocess a source file
+Hafta-10/03-DependencyInversionPrinciple/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build.make CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/Hafta-10/03-DependencyInversionPrinciple/main.cpp.i
+.PHONY : Hafta-10/03-DependencyInversionPrinciple/main.cpp.i
+
+Hafta-10/03-DependencyInversionPrinciple/main.s: Hafta-10/03-DependencyInversionPrinciple/main.cpp.s
+
+.PHONY : Hafta-10/03-DependencyInversionPrinciple/main.s
+
+# target to generate assembly for a file
+Hafta-10/03-DependencyInversionPrinciple/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build.make CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/Hafta-10/03-DependencyInversionPrinciple/main.cpp.s
+.PHONY : Hafta-10/03-DependencyInversionPrinciple/main.cpp.s
+
+Hafta-10/04-Decorator/main.o: Hafta-10/04-Decorator/main.cpp.o
+
+.PHONY : Hafta-10/04-Decorator/main.o
+
+# target to build an object file
+Hafta-10/04-Decorator/main.cpp.o:
+	$(MAKE) -f CMakeFiles/Hafta-10-04-Decorator.dir/build.make CMakeFiles/Hafta-10-04-Decorator.dir/Hafta-10/04-Decorator/main.cpp.o
+.PHONY : Hafta-10/04-Decorator/main.cpp.o
+
+Hafta-10/04-Decorator/main.i: Hafta-10/04-Decorator/main.cpp.i
+
+.PHONY : Hafta-10/04-Decorator/main.i
+
+# target to preprocess a source file
+Hafta-10/04-Decorator/main.cpp.i:
+	$(MAKE) -f CMakeFiles/Hafta-10-04-Decorator.dir/build.make CMakeFiles/Hafta-10-04-Decorator.dir/Hafta-10/04-Decorator/main.cpp.i
+.PHONY : Hafta-10/04-Decorator/main.cpp.i
+
+Hafta-10/04-Decorator/main.s: Hafta-10/04-Decorator/main.cpp.s
+
+.PHONY : Hafta-10/04-Decorator/main.s
+
+# target to generate assembly for a file
+Hafta-10/04-Decorator/main.cpp.s:
+	$(MAKE) -f CMakeFiles/Hafta-10-04-Decorator.dir/build.make CMakeFiles/Hafta-10-04-Decorator.dir/Hafta-10/04-Decorator/main.cpp.s
+.PHONY : Hafta-10/04-Decorator/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... Hafta-10-04-Decorator"
+	@echo "... Hafta-10-03-DependencyInversionPrinciple"
+	@echo "... Hafta-10-02-IgorHomework"
 	@echo "... Hafta-09-02-Memento"
 	@echo "... Hafta-09-01-Command"
 	@echo "... Hafta-08-01-Iterator"
@@ -1905,6 +2095,7 @@ help:
 	@echo "... Hafta-04-10-Open_Closed_Principle"
 	@echo "... Hafta-04-05-Set"
 	@echo "... Hafta-04-06-Multiset"
+	@echo "... Hafta-10-01-Metaprogramming"
 	@echo "... Hafta-04-07-Stack"
 	@echo "... Hafta-05-01-Thread_Safe_Singleton"
 	@echo "... Hafta-01/01-vector/main.o"
@@ -2051,6 +2242,21 @@ help:
 	@echo "... Hafta-09/02-Memento/main.o"
 	@echo "... Hafta-09/02-Memento/main.i"
 	@echo "... Hafta-09/02-Memento/main.s"
+	@echo "... Hafta-10/01-Metaprogramming/main.o"
+	@echo "... Hafta-10/01-Metaprogramming/main.i"
+	@echo "... Hafta-10/01-Metaprogramming/main.s"
+	@echo "... Hafta-10/02-IgorHomework/dummy_strategy.o"
+	@echo "... Hafta-10/02-IgorHomework/dummy_strategy.i"
+	@echo "... Hafta-10/02-IgorHomework/dummy_strategy.s"
+	@echo "... Hafta-10/02-IgorHomework/png_strategy.o"
+	@echo "... Hafta-10/02-IgorHomework/png_strategy.i"
+	@echo "... Hafta-10/02-IgorHomework/png_strategy.s"
+	@echo "... Hafta-10/03-DependencyInversionPrinciple/main.o"
+	@echo "... Hafta-10/03-DependencyInversionPrinciple/main.i"
+	@echo "... Hafta-10/03-DependencyInversionPrinciple/main.s"
+	@echo "... Hafta-10/04-Decorator/main.o"
+	@echo "... Hafta-10/04-Decorator/main.i"
+	@echo "... Hafta-10/04-Decorator/main.s"
 .PHONY : help
 
 

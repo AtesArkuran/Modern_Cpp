@@ -1,0 +1,340 @@
+== Ödev-07
+
+=== Dependency Inversion Prensibi
+
+Bu prensibin amacı yüksek seviye sınıfların temel seviye sınıflara olan bağımlılığını kaldırmaktır.
+Dependency Inversion Prensibi, bu işlemi arayüz kullanarak gerçekleştirir.
+
+Örnek olarak bir oyun yazıldığını düşünelim.
+Bu oyunda Savaşçı, Düşman ve Bilgi olmak üzere 3 tane sınıfı *Dependency Inversion kullanmadan* yaratalım.
+
+*Savaşçı Sınıfı*
+[source, cpp]
+----
+class Savasci
+{
+private:
+    std::string isim;
+    int can;
+    int hasarGucu;
+    std::string tip;
+
+public:
+    Savasci(const std::string &isim, int can, int hasarGucu, const std::string &tip) : isim(isim), can(can),
+                                                                                       hasarGucu(hasarGucu), tip(tip){}
+
+    void bilgiGoster(){
+    std::cout << "Savasci bilgileri: " << std::endl
+                << "Isim: " << isim << std::endl
+                << "Can: " << can << std::endl
+                << "Hasar Gucu: " << hasarGucu << std::endl
+                << "Tip: " << tip << std::endl << std::endl;
+    }
+};
+----
+
+Bu savaşçı sınıfında 4 tane özellik var: İsim, can, hasar gücü, silah tipi.
+
+Bu Savaşçının bilgilerini göstermek için *bilgiGoster()* fonksiyonu kullanılmaktadır.
+
+Savaşçı sınıfı gibi bir de düşman sınıfımızı oluşturalım.
+
+*Düşman Sınıfı*
+[source, cpp]
+----
+class Dusman
+{
+private:
+    int can;
+    int hasarGucu;
+
+public:
+    Dusman(int can, int hasarGucu) : can(can), hasarGucu(hasarGucu) {}
+
+    void bilgiGoster() {
+        std::cout << "Dusman bilgileri: " << std::endl
+                  << "Can: " << can << std::endl
+                  << "Hasar Gucu: " << hasarGucu << std::endl << std::endl;
+    }
+};
+----
+
+Düşman sınıfının Savaşçı sınıfından tek farkı isim ve silah tipi özelliklerini barındırmamasıdır.
+Bu nedenle *bilgiGoster()* fonksiyonu daha farklı çalışmaktadır.
+
+Bir de bu sınıflardaki özellikleri ekrana bastıracak olan bilgi sınıfını oluşturalım.
+
+*Bilgi Sınıfı*
+[source, cpp]
+----
+class Bilgi
+{
+public:
+    Bilgi(){}
+
+    void bilgiGoster(Savasci& karakter)             // <1>
+    {
+        karakter.bilgiGoster();
+    }
+
+    void bilgiGoster(Dusman& karakter)              // <2>
+    {
+        karakter.bilgiGoster();
+    }
+};
+----
+<1> Savaşçı için bilgileri basan fonksiyondur. Girdi olarak Savaşçı sınıfından bir örnek kullanır.
+<2> Düşman için bilgileri basan fonksiyondur. Girdi olarak Düşman sınıfından bir örnek kullanır.
+
+*Main Fonksiyonu*
+[source, cpp]
+----
+int main()
+{
+    Savasci s1("Savasci1",100,50,"Kilic");
+    Dusman d1(75,20);
+
+    Bilgi b;
+
+    b.bilgiGoster(s1);
+    b.bilgiGoster(d1);
+
+    return 0;
+}
+----
+
+Bu programın çıktısı bize s1 ve b1 değişkenlerini b değişkenini kullanarak vermektedir.
+
+----
+Savasci bilgileri:
+Isim: Savasci1
+Can: 100
+Hasar Gucu: 50
+Tip: Kilic
+
+Dusman bilgileri:
+Can: 75
+Hasar Gucu: 20
+----
+
+[WARNING]
+====
+Oluşturulan Bilgi sınıfı işimizi görür mü? Evet. Fakat bu yapıyı değiştirmek istersek  ne olur?
+
+.Bilgi sınıfının çıkarabileceği sorunlar:
+- Savaşçı ve Düşman dışında bir sınıf eklemek istediğimizde Bilgi sınıfını da yeniden düzenlememiz gerekecek.
+- Bilgi sınıfındaki fonksiyonlar temel sınıflardan oluşturulan örneklere bağlıdır.
+====
+
+==== Peki Bu Sorunun Önüne Nasıl Geçilir?
+
+Kodda değişiklik yaptığımızda Bilgi sınıfı ile ilgili herhangi bir sıkıntı yaşamak istemiyorsak *Dependency Inversion
+Prensibini* kullanmamız gerekiyor.
+
+Dependency Inversion Prensibinin iki amacı vardır.
+
+* Yüksek seviyeli sınıflar, düşük seviyeli sınıflara bağlı olmamalı. İkisi de arayüzlere bağlı olmalıdır.
+* Arayüzler detaylara bağlı olmamalı. Detaylar arayüzlere bağlı olmalı.
+
+Bu maddelere baktığımız zaman karşımıza şöyle bir tablo çıkıyor:
+
+*Üst Seviye Sınıflar -> Arayüz -> Temel Seviye Sınıfları*
+
+O zaman bu sınıflar için bir arayüz oluşturmamız gerekiyor. Bu arayüzü de Karakter adı altında oluşturalım.
+
+*Karakter Arayüzü*
+[source, cpp]
+----
+class Karakter
+{
+public:
+    virtual void bilgiGoster() = 0;
+};
+----
+
+Bu arayüzü kullanarak bütün sınıfları tekrardan oluşturalım.
+
+*Savaşçı Sınıfı*
+[source, cpp]
+----
+class Savasci : public Karakter             // <1>
+{
+private:
+    std::string isim;
+    int can;
+    int hasarGucu;
+    std::string tip;
+
+public:
+    Savasci(const std::string &isim, int can, int hasarGucu, const std::string &tip) : isim(isim), can(can),
+                                                                                       hasarGucu(hasarGucu), tip(tip){}
+
+    void bilgiGoster() override {           // <2>
+        std::cout << "Savasci bilgileri: " << std::endl
+                    << "Isim: " << isim << std::endl
+                    << "Can: " << can << std::endl
+                    << "Hasar Gucu: " << hasarGucu << std::endl
+                    << "Tip: " << tip << std::endl << std::endl;
+    }
+};
+----
+<1> Savaşçı sınıfı *Karakter sınıfı implement edilerek* oluşturulmuştur.
+<2> bilgiGoster() fonksiyonu Karakter sınıfındaki saf sanal fonksiyonu override ederek oluşturulmuştur.
+
+*Düşman Sınıfı*
+[source, cpp]
+----
+class Dusman : public Karakter              // <1>
+{
+private:
+    int can;
+    int hasarGucu;
+
+public:
+    Dusman(int can, int hasarGucu) : can(can), hasarGucu(hasarGucu) {}
+
+    void bilgiGoster() override {           // <2>
+        std::cout << "Dusman bilgileri: " << std::endl
+                  << "Can: " << can << std::endl
+                  << "Hasar Gucu: " << hasarGucu << std::endl << std::endl;
+    }
+};
+----
+<1> Düşman sınıfı *Karakter sınıfı implement edilerek* oluşturulmuştur.
+<2> bilgiGoster() fonksiyonu Karakter sınıfındaki saf sanal fonksiyonu override ederek oluşturulmuştur.
+
+Bütün temel sınıfları oluşturduğumuza göre artık üst seviye sınıfımız olan Bilgi sınıfını oluşturabiliriz.
+
+*Bilgi Sınıfı*
+[source, cpp]
+----
+class Bilgi
+{
+public:
+    Bilgi(){}
+
+    void bilgiGoster(Karakter& karakter)    // <1>
+    {
+        karakter.bilgiGoster();
+    }
+};
+----
+<1> Önceki örneğin aksine burada Karakter arayüzü kullanılarak sadece bir fonksiyon yazılmıştır.
+
+Sınıflar oluşturulduğuna göre yine aynı Main fonksiyonu ile kodu çalıştıralım.
+
+*Main Fonksiyonu*
+[source, cpp]
+----
+int main()
+{
+    Savasci s1("Savasci1",100,50,"Kilic");
+    Dusman d1(75,20);
+
+    Bilgi b;
+
+    b.bilgiGoster(s1);
+    b.bilgiGoster(d1);
+
+    return 0;
+}
+----
+
+*Çıktı*
+----
+Savasci bilgileri:
+Isim: Savasci1
+Can: 100
+Hasar Gucu: 50
+Tip: Kilic
+
+Dusman bilgileri:
+Can: 75
+Hasar Gucu: 20
+----
+
+Görüldüğü gibi çıkan sonuçta hiç bir değişiklik yok.
+
+[IMPORTANT]
+====
+Peki sonuç değişmediğine göre ben bunu yapıp ne kazandım?
+
+- Bununla beraber ben Savaşçı, Düşman gibi yeni bir temel seviye sınıf eklemek istediğim zaman Bilgi sınıfını
+değiştirmeme gerek kalmayacak.
+- Bilgi sınıfındaki fonksiyonlar hiç bir şekilde temel seviye sınıfların örneklerini kullanmamaktadır.
+====
+
+Bu tür yazılımlarda kodlamayı kolaylaştırmak için kullanılan bir yöntemdir. Bir sınıfta değişiklik yaptığınızda diğer
+sınıfların etkilenmemesi her zaman öncelik olmalıdır.
+
+=== UML Diagramları
+
+==== Dependency Inversion Kullanmadan
+
+[plantuml, DependencyInversionYok, png]
+----
+Class Savaşçı{
+    - string isim
+    - int can
+    - int hasarGucu
+    - string tip
+
+    +Savasci(string isim, int can, int hasarGucu, string tip)
+    +void bilgiGoster()
+}
+
+Class Düşman{
+    - int can
+    - int hasarGucu
+
+    +Dusman(int can, int hasarGucu)
+    +void bilgiGoster()
+}
+
+Class Bilgi{
+    +Bilgi()
+    +void bilgiGoster(Savasci karakter)
+    +void bilgiGoster(Dusman karakter)
+}
+
+Düşman <--- Bilgi : Kullanılır
+Savaşçı <--- Bilgi : Kullanılır
+----
+
+==== Dependency Inversion Kullanarak
+
+[plantuml, DependencyInversionVar, png]
+----
+Interface Karakter{
+    {Abstract} void bilgiGoster();
+}
+
+Class Savaşçı{
+    - string isim
+    - int can
+    - int hasarGucu
+    - string tip
+
+    +Savasci(string isim, int can, int hasarGucu, string tip)
+    +void bilgiGoster()
+}
+
+Class Düşman{
+    - int can
+    - int hasarGucu
+
+    +Dusman(int can, int hasarGucu)
+    +void bilgiGoster()
+}
+
+Class Bilgi{
+    +Bilgi()
+    +void bilgiGoster(Karakter karakter)
+}
+
+Karakter <- Bilgi : Kullanılır
+Karakter <|... Düşman
+Karakter <|... Savaşçı
+----
+
+
