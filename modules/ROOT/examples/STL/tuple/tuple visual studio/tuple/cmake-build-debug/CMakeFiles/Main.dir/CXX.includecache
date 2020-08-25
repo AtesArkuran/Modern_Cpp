@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/tuple/tuple visual studio/tuple/main.cpp
+tuple
+-
+string
+-
+iostream
+-
+

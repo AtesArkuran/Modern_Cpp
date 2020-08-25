@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/klavye.dir/klavye1.cpp.o  -o klavye 

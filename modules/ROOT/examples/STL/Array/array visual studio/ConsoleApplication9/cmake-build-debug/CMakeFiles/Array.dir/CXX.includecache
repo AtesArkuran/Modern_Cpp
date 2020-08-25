@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/Array/array visual studio/ConsoleApplication9/array.cpp
+array
+-
+iostream
+-
+algorithm
+-
+

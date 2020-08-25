@@ -1,0 +1,5 @@
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/stack/kodlar/cmake-build-debug/CMakeFiles/Stack1.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/stack/kodlar/cmake-build-debug/CMakeFiles/Stack2.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/stack/kodlar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/stack/kodlar/cmake-build-debug/CMakeFiles/Stack3.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/stack/kodlar/cmake-build-debug/CMakeFiles/edit_cache.dir

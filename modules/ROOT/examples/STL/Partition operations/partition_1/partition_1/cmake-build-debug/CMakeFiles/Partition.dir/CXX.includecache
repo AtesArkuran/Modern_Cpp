@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/Partition operations/partition_1/partition_1/partition1.cpp
+algorithm
+-
+array
+-
+iostream
+-
+

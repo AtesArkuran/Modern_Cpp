@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/commaInitializer.dir/Advanced_Initialization/commaInitializer/Eigen/Eigen.cpp.o  -o commaInitializer 

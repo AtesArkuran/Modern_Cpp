@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Multimap/Ornek3/main.cpp
+map
+-
+iostream
+-
+utility
+-
+

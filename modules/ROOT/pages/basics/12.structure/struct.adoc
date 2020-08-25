@@ -1,0 +1,76 @@
+## Structure
+
+Diziler aynı türden değişkenleri tanımlamanıza izin verir, ancak structure , farklı türlerdeki veri öğelerini birleştirmenize olanak tanıyan veri türüdür.
+
+=== Yapının Tanımlanması
+
+Tanımlamak için struct ifadesi kullanılır.
+
+[source,C++]
+
+----
+
+struct Kayit
+{
+    char ad[50];
+    int yas;
+    float maas;
+    
+}isci,yonetici;
+
+----
+
+Yapının adı isteğe bağlıdır.Yapının herhangi bir değişkenine erişmek için üye erişim operatörleri kullanılır.(isci,yonetici) 
+
+
+
+[source,C++]
+----
+
+void printKayit(struct Kayit book );
+
+struct Kayit
+{
+    char ad[50];
+    int yas;
+    int maas;
+
+}isci,yonetici;
+
+
+int main() {
+
+    strcpy (isci.ad ,"Hülya");
+    isci.maas=2000;
+    isci.yas=23;
+
+    printKayit( isci );
+
+    strcpy(yonetici.ad,"Gizem");
+    yonetici.maas=8000;
+    yonetici.yas=23;
+    printKayit( yonetici );
+
+    return 0;
+}
+void printKayit( struct Kayit kisi ) {
+    printf("\nAd : %s",kisi.ad);
+    printf("\nYas : %d",kisi.yas);
+    printf("\nMaas : %d",kisi.maas);
+
+
+}
+
+----
+
+
+Yukarıda bulunan kod derlendiğinde aşağıdaki sonucu verir.
+
+ Ad : Hülya
+ Yas : 23
+ Maas : 2000
+ Ad : Gizem
+ Yas : 23
+ Maas : 8000
+ 
+ 

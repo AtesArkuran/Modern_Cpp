@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/fonksiyon_prototip.dir/main.cpp.o  -o fonksiyon_prototip 

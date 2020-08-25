@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/unordered_set/unordered_set_3/main.cpp
+iostream
+-
+unordered_set
+-
+

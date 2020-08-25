@@ -1,0 +1,7 @@
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/forward_list/kodlar/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/forward_list/kodlar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/forward_list/kodlar/cmake-build-debug/CMakeFiles/list1.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/forward_list/kodlar/cmake-build-debug/CMakeFiles/list2.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/forward_list/kodlar/cmake-build-debug/CMakeFiles/list4.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/forward_list/kodlar/cmake-build-debug/CMakeFiles/list5.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/forward_list/kodlar/cmake-build-debug/CMakeFiles/list3.dir

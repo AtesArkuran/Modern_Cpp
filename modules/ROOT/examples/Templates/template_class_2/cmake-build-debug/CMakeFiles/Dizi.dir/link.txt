@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/Dizi.dir/Dizi.cpp.o  -o Dizi 

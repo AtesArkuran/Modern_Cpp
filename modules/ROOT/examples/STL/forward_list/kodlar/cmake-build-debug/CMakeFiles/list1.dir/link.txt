@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/list1.dir/visual_studio_forward_list_1.cpp.o  -o list1 

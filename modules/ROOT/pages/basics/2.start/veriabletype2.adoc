@@ -1,0 +1,270 @@
+= C++ DA DEĞİŞKEN İSİMLENDİRME
+:toc:
+
+Programlarımızda işlemlerimizi yaparken verileri kullanırız. Mesela herhangi iki sayıyı toplarız veya iki tane karakter dizisini (string) karşılaştırırız. Bu işlemler için kullandığımız verilerimizi değişkenler içinde tutarız. Değişkenler bilgisayar hafızasında verileri depolayan ve isimleri olan programlamının en temel elementleridir. 
+
+Bir değişkeni kullanmadan önce onu tanımlamalıyız. Tanımlamayı değişkene uygun bir isim verme ve değişkenin hangi tipten olduğunu bildirmeyle yaparız.  
+
+= Değişken İsimlendirme Kuralları
+
+. C++, büyük ve küçük harflere karşı duyarlıdır. Böylece ‘Sayi’ ve ‘sayi’ isminde 2 farklı değişken oluşturabilirsiniz hepsi ayrı değişken olarak algınalırlar.Bunları kullanırken karıştırmamak için dikkatli olmalısınız.
+
+. Değişkenlerin isimleri alfabede bulunan karakterlerle ya da _ (alt çizgi) ile başlamalı.Kesinlikle sayı veya özel karakter ile isimlendirmeye başlayamayız. Ama ilk harf hariç diğer karakterler sayı olabilir.
+
+. Değişken isimleri birden fazla kelime olduğu zaman; kelimelerin arasına boşluk konmaz. Bu tür değişkenleri ya kelimeleri birleştirerek veya kelimeler arasına _ (alt çizgi) karakteri koyarak isimlendiririz.
+
+. Değişken ismi en fazla 255 karakterden oluşabilir.
+
+. Değişken isimlerinde  C++ dilinin özel anahtar kelimelerini kesinlikle kullanamayız.
+
+= Değişken Tanımlama
+
+Değişken tanımlamasının genel gösterimi:
+
+
+.Editable.c++
+
+[source,c++]
+----
+değişken_türü değişken_adı;
+----
+
+Örneğin;
+
+.Editable.c++
+[source,c++]
+----
+int _sayi; // Doğru kullanım
+	
+int sayi; // Doğru kullanım
+
+int ?sayi; // Yanlış kullanım
+	
+int &sayi; // Yanlış Kullanım
+
+int 1sayi; // Yanlış Kullanım
+
+int dogum tarihi; // Yanlış Kullanım
+
+int dogum_tarihi; // Doğru Kullanım
+
+int dogumtarihi; // Doğru Kullanım
+----
+
+== camelCase ve PascalCase
+
+camelCase, bir bileşik kelime grubu içindeki her kelimenin ilk harfini ilk kelime hariç büyük harfle yazıldığı bir adlandırma kuraldır. Yazılım geliştiricileri, kaynak kodunu yazarken camelCase'i kullanırlar.
+
+camelCase programlamada kullanışlıdır, çünkü eleman isimleri boşluk içeremez. camelCase adlandırma kuralı, bileşik adlarını daha okunaklı hale getirir. Örneğin, __myOneMethod__'un okunması __myonemethod__'dan daha kolaydır.
+
+*camelCase'in diğer örnekleri aşağıda listelenmiştir:*
+
+* newString;
+
+* getNewString()
+
+* myVariableName;
+
+CamelCase (ayrıca "camel case" veya "dromedary case") adı, bileşik kelimenin ortasındaki büyük harfle gösterilen deve üzerindeki kamburluğa aittir. Bir camelCase kelimesi bir veya daha fazla büyük harf içerebilir.
+
+camelCase, ilk kelimede dahil, bütün kelimelerin ilk harflerini bileşik bir kelimede büyük harf yapan PascalCase'e benzer.Örneğin, PascalCase'deki __myFunction ()__, _MyFunction ()_ olur.Programcılar kaynak kodunu yazarken her iki yazı tipini de kullanmayı seçebilir, çünkü bu sözdizimini etkilemez.Her geliştirici tercih ettiği stili seçebilse de, bazı programlama dilleri standart adlandırma kurallarına sahiptir.
+
+NOTE: PascalCase bazen 'UpperCamelCase' olarak adlandırılır, standart camelCase ise 'lowerCamelCase' olarak belirtilebilir. Son yıllarda, geliştiriciler bu terimlerden uzaklaşarak bunun yerine PascalCase ve camelCase'i kullanmaktadırlar.
+
+.camelCase kullanımı içeren örnek kod
+[source,C++]
+----
+#include <iostream>
+
+using namespace std ;
+
+int main()
+{
+  int kimlikNo;
+  int okulNo;
+  
+  cout<<"Okul numaranizi giriniz:";
+  cin>>okulNo;
+  
+  cout<<"Kimlik numaranizi giriniz:";
+  cin>>kimlikNo;
+  
+  return 0;
+}
+----
+
+== snake_case
+
+Snake case (veya snake_case), kelimelerin bir boşluk yerine bir alt çizgi sembolüyle (_) ayrılması ile bileşik kelimeler yazma işlemidir. İlk harf genellikle küçük harfe dönüştürülür.
+
+.snake_case kullanımı içeren örnek kod
+[source,C++]
+----
+#include <iostream>
+
+using namespace std ;
+
+int main()
+{
+  int kimlik_no;
+  int okul_no;
+  
+  cout<<"Okul numaranizi giriniz:";
+  cin>>okul_no;
+  
+  cout<<"Kimlik numaranizi giriniz:";
+  cin>>kimlik_no;
+  
+  return 0;
+}
+----
+
+= Değişken Türleri
+
+⇒ Yerel Değişkenler
+
+⇒ Global Değişkenler
+
+⇒ Static Değişkenler
+
+== Yerel Değişkenler
+
+Bir değişkenin tanımlandığı yerin önemi büyüktür. Değişken tanımlamasını fonksiyonun içinde tanımlarsanız o değişkene sadece o fonksiyonun içerisinden erişebilirsiniz. İşte fonksiyonun içerisinde tanımlanan bu değişkenlere yerel değişkenler diyoruz. Alttaki örnekte, gol_sayisi isminde main fonksiyonuna ait yerel değişken tanımlanmıştır:
+
+[source,C++]
+----
+#include <iostream>
+
+using namespace std ;
+
+int main()
+{
+
+	int gol_sayisi;
+	/*	Bu değişken main fonksiyonunun yerel değişkenidir.
+	Dolayısıyla bu değişkene sadece main fonksiyonun
+	içinden erişebilirsiniz.*/
+
+    return 0;
+}
+----
+
+== Global Değişkenler
+
+Eğer bütün fonksiyonlar içinden erişebileceğiniz değişken tanımlamak istiyorsanız, bu değişkeni bütün fonksiyonların dışına yazmalısınız. Fonksiyonların dışında tanımlanan bu değişkenlere Global Değişkenler diyoruz. Alttaki örnekte, gol_sayisi isminde global değişken tanımlanmıştır.
+
+[source,C++]
+----
+#include <iostream>
+
+using namespace std ;
+
+int gol_sayisi;
+/*	Bu değişkene bütün fonksiyonlardan erişilebilir.
+Çünkü herhangi bir fonksiyonun içinde tanımlanmamıştır.
+Dolayısıyla bu değişken Global Değişkendir.*/
+ 
+int main()
+{
+    // Yukarıda ki gol_sayisi isimli değişkene buradan erişilebilir.
+ 
+    return 0;
+}
+----
+
+== Static Değişkenler
+
+Diyelim fonksiyon içinde değişken tanımladınız. Yani yerel değişken tanımladınız. Bu değişken fonksiyon her çağrıldığında hafızada yer tutar, fonksiyon bittiğinde ise hafızadan yok edilir. Global değişkenler ise program açıldığında hafızada yer tutar ve program kapanana kadar yok edilmezler.
+
+Kısacası yerel değişkenlerde fonksiyon yeniden çağrıldığında değişkenin değeri son değer ile aynı olmaz. Eğer biz tanımladığımız yerel değişkenin değerinin fonksiyonun tekrar çağrıldığında değerinin yok edilmeden var olan değerde kalmasını istersek Static Değişkenleri kullanırız. Static değişkenin nasıl tanımlandığını aşağıdaki örnekten görebilirsiniz:
+
+[source,C++]
+----
+
+#include <iostream>
+ 
+using namespace std;
+ 
+void gol_at() {
+ 
+	static int gol = 0;
+ 
+	gol++; // gol sayısını 1 tane arttırıyoruz.
+ 
+	cout << "Gol sayisi: " << gol << endl; // gol sayının değerini ekrana yazdırıyoruz ve alt satıra geçiyoruz.
+}
+ 
+int main()
+{
+	
+	gol_at(); // gol_at ismindeki fonksiyonu çağırıyoruz. Yani işletiyoruz.
+ 
+	gol_at();
+ 
+	gol_at();
+ 
+	gol_at();
+ 
+	system("pause"); // ekranın açık kalmasını sağlıyoruz.
+ 
+    return 0;
+}
+----
+
+Yukarıdaki örnekte gol_at isminde fonksiyon oluşturduk. Bu fonksiyon: gol isminde ilk değeri sıfır olan tamsayı türünde static bir değişken oluşturuyor. Daha sonra bu değişkenin değerini ++ operatörü ile 1 tane arttırıp gol değişkeninin değerini ekrana yazdırıyor. Main fonksiyonunda ise gol_at(); kodu ile fonksiyonu çağırdık ve bu işlemi 4 kere tekrar ettirdik. Yani fonksiyon içindeki kodları 4 kere işlettik.
+
+.Kodun ekran görüntüsü
+----
+Gol sayisi: 1
+Gol sayisi: 2
+Gol sayisi: 3
+Gol sayisi: 4
+Press any key to continue . . .
+----
+Eğer biz gol ismindeki değişkeni static olarak tanımlamasaydık ekrana yazdırılan değer her seferinde 1(bir) olacaktı çünkü değişkene ilk değer olarak 0(sıfır) değerini verdik ve ekrana yazdırmadan önce değeri 1(bir) tane arttırdık. Dolayısıyla Static değişken sayesinde değişken; fonksiyon her çağrıldığında yeniden oluşturulmak yerine sadece ilk seferde oluşturulup, sonrasında global değişkenler gibi değeri korunabiliyor.
+
+TIP: Fonksiyonu 4 kere yazmak yerine döngü kullanarak sadece 1 satır da yazabilir hatta oluşturduğumuz fonksiyondaki kodları döngü içine yazarak da aynı işlemi yapabilirdik.
+
+=  Sabitler
+
+Sabitler: program içerisinde değerinin değiştirilemediği değişken türleridir. Örneğin, pi değişkenin değerini tutan değişkenimizi sabit olarak tanımlarız ve bu değeri istesek dahi değiştiremeyiz. Sabit değişken bildirimlerinde Const ifadesini kullanırız.
+
+== Sabit değişken bildirimi
+
+(Değişken Tipi) *Const* (Değişken İsmi) = (değeri); veya:
+
+*Const* (Değişken Tipi) (Değişken İsmi) = (değeri); şeklindedir.
+
+Aşağıda dairenin alanını hesaplayan örnek kod parçası mevcut. Burada pi sayısı sabit olarak tanımlanmıştır:
+
+[source,C++]
+----
+
+#include <iostream>
+ 
+using namespace std;
+
+int main()
+{
+	double const pi = 3.14; // pi sayısını 3.14 sabit değişken olarak double tipinde tanımladık
+ 
+	int r = 12; // yarıçap
+ 
+	double alan = pi*r*r; // dairenin alanını 'alan' ismindeki double tipindeki değişkene atadık.
+ 
+	cout << "Dairenin alani: " << pi*r*r << endl; // 'alan' ismindeki hesaplanan alanı tutan değişkeni ekrana yazdırdık.
+ 
+	system("pause"); // ekranın açık kalmasını sağlıyoruz.
+ 
+    return 0;
+}
+----
+
+Yukarıdaki örnekte pi sayısnı sabit olarak tanımladık ve dairenin yarıçapını belirledik. Daha sonra bu belirlediğimiz değerler eşliğinde dairenin alanı hesaplanıp ekrana yazdırdık. Programın çıktısı şu şekildedir:
+
+.Kodun ekran görüntüsü
+----
+Dairenin alani: 452.16
+Press any key to continue . . .
+----
+

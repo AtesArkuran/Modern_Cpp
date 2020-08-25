@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/atamaVeResize.dir/Matrix_Sınıfı/atamaVeResize/Eigen/Eigen.cpp.o  -o atamaVeResize 

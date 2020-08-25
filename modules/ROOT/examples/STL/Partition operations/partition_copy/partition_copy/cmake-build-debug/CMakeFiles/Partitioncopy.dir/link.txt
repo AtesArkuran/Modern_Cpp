@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/Partitioncopy.dir/partitioncopy.cpp.o  -o Partitioncopy 

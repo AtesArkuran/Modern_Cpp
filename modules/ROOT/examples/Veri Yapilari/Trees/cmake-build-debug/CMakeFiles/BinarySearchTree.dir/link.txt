@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/BinarySearchTree.dir/BinarySearchTree.cpp.o  -o BinarySearchTree 

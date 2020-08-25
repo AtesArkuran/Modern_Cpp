@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/VSqueue1.dir/visual_studio_queue-1.cpp.o  -o VSqueue1 

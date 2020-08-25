@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/Stack3.dir/stack-3.cpp.o  -o Stack3 

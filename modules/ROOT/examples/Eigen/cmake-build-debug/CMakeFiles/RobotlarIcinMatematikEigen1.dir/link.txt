@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/RobotlarIcinMatematikEigen1.dir/Matrix_Sınıfı/RobotlarIcinMatematikEigen1/RobotlarIcinMatematikEigen1/RobotlarIcinMatematikEigen1.cpp.o  -o RobotlarIcinMatematikEigen1 

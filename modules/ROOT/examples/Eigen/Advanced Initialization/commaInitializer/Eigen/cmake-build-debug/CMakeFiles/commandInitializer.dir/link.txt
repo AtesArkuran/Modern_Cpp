@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/commandInitializer.dir/Eigen.cpp.o  -o commandInitializer  -lEigen2::Eigen 

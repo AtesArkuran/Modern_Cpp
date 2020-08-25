@@ -1,0 +1,5 @@
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/queue-priority_queue/kodlar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/queue-priority_queue/kodlar/cmake-build-debug/CMakeFiles/VSpriority.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/queue-priority_queue/kodlar/cmake-build-debug/CMakeFiles/VSqueue2.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/queue-priority_queue/kodlar/cmake-build-debug/CMakeFiles/VSqueue1.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/queue-priority_queue/kodlar/cmake-build-debug/CMakeFiles/edit_cache.dir

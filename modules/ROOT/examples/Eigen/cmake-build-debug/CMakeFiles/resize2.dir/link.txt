@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/resize2.dir/Matrix_Sınıfı/resize2/Eigen/Eigen.cpp.o  -o resize2 

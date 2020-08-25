@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Veri Yapilari/LinkedLists/LinkedLists.cpp
+pch.h
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Veri Yapilari/LinkedLists/pch.h
+iostream
+-
+exception
+-
+time.h
+-
+

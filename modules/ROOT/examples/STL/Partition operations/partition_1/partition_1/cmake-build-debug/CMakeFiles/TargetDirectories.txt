@@ -1,0 +1,4 @@
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/Partition operations/partition_1/partition_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/Partition operations/partition_1/partition_1/cmake-build-debug/CMakeFiles/Stdafx.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/Partition operations/partition_1/partition_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/STL/Partition operations/partition_1/partition_1/cmake-build-debug/CMakeFiles/Partition1.dir

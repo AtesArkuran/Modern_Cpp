@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Templates/template_class_2/Dizi.cpp
+array
+-
+Dizi.h
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Templates/template_class_2/Dizi.h
+
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Templates/template_class_2/Dizi.h
+assert.h
+-
+

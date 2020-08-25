@@ -1,0 +1,5 @@
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Templates/template_class_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Templates/template_class_2/cmake-build-debug/CMakeFiles/Templates.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Templates/template_class_2/cmake-build-debug/CMakeFiles/Main.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Templates/template_class_2/cmake-build-debug/CMakeFiles/Dizi.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Templates/template_class_2/cmake-build-debug/CMakeFiles/edit_cache.dir

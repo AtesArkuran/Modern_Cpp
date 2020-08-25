@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="modern_cpp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RobotlarIcinMatematikEigen1">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/RobotlarIcinMatematikEigen1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 RobotlarIcinMatematikEigen1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RobotlarIcinMatematikEigen1/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/RobotlarIcinMatematikEigen1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 RobotlarIcinMatematikEigen1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resize">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/resize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 resize"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resize/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/resize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 resize/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="elemanErisimi">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/elemanErisimi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 elemanErisimi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="elemanErisimi/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/elemanErisimi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 elemanErisimi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Blok_islemleri2">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Blok_islemleri2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Blok_islemleri2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Blok_islemleri2/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Blok_islemleri2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Blok_islemleri2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ozelMatrisveDiziler2">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/ozelMatrisveDiziler2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 ozelMatrisveDiziler2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ozelMatrisveDiziler2/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/ozelMatrisveDiziler2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 ozelMatrisveDiziler2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ozelMatrisveDiziler">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/ozelMatrisveDiziler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 ozelMatrisveDiziler"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ozelMatrisveDiziler/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/ozelMatrisveDiziler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 ozelMatrisveDiziler/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin4">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin4"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin4/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin4/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin2">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin2/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin6">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin6"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin6/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin6/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin3">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin3/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin1">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin1/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atamaVeResize">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/atamaVeResize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 atamaVeResize"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atamaVeResize/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/atamaVeResize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 atamaVeResize/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin5">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Aliasin5/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Aliasin5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Aliasin5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Blok_islemleri1">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Blok_islemleri1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Blok_islemleri1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Blok_islemleri1/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Blok_islemleri1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Blok_islemleri1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Eigen02">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Eigen02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Eigen02"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Eigen02/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Eigen02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 Eigen02/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commaInitializer2">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/commaInitializer2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 commaInitializer2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commaInitializer2/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/commaInitializer2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 commaInitializer2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commaInitializer">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/commaInitializer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 commaInitializer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commaInitializer/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/commaInitializer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 commaInitializer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resize2">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/resize2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 resize2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="resize2/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/resize2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 resize2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commaInitializer3">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/commaInitializer3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 commaInitializer3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="commaInitializer3/fast">
+				<Option output="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/commaInitializer3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 commaInitializer3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Advanced Initialization/commaInitializer/Eigen/Eigen.cpp">
+			<Option target="commaInitializer"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Advanced Initialization/commaInitializer2/Eigen/Eigen.cpp">
+			<Option target="commaInitializer2"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Advanced Initialization/commaInitializer3/Eigen/Eigen.cpp">
+			<Option target="commaInitializer3"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Advanced Initialization/ozelMatrisveDiziler/Eigen/Eigen.cpp">
+			<Option target="ozelMatrisveDiziler"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Advanced Initialization/ozelMatrisveDiziler2/Eigen/Eigen.cpp">
+			<Option target="ozelMatrisveDiziler2"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Aliasing/Aliasing1/10A2/10A2.cpp">
+			<Option target="Aliasin1"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Aliasing/Aliasing2/10A2/10A2.cpp">
+			<Option target="Aliasin2"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Aliasing/Aliasing3/11A2/11A2.cpp">
+			<Option target="Aliasin3"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Aliasing/Aliasing4/11A2/11A2.cpp">
+			<Option target="Aliasin4"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Aliasing/Aliasing5/11A2/11A2.cpp">
+			<Option target="Aliasin5"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Aliasing/Aliasing6/11A2/11A2.cpp">
+			<Option target="Aliasin6"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Blok İşlemleri/blokIslemleri/Eigen/Eigen.cpp">
+			<Option target="Blok_islemleri1"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Blok İşlemleri/blokIslemleri2/Eigen/Eigen.cpp">
+			<Option target="Blok_islemleri2"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Eigen02/Eigen02/Eigen02.cpp">
+			<Option target="Eigen02"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Matrix Sınıfı/RobotlarIcinMatematikEigen1/RobotlarIcinMatematikEigen1/RobotlarIcinMatematikEigen1.cpp">
+			<Option target="RobotlarIcinMatematikEigen1"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Matrix Sınıfı/atamaVeResize/Eigen/Eigen.cpp">
+			<Option target="atamaVeResize"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Matrix Sınıfı/elemanErisimi/Eigen/Eigen.cpp">
+			<Option target="elemanErisimi"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Matrix Sınıfı/resize/Eigen/Eigen.cpp">
+			<Option target="resize"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/Matrix Sınıfı/resize2/Eigen/Eigen.cpp">
+			<Option target="resize2"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Eigen/../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

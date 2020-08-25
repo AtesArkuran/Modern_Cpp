@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/VSpriority.dir/visual_studio_priority_queue.cpp.o  -o VSpriority 

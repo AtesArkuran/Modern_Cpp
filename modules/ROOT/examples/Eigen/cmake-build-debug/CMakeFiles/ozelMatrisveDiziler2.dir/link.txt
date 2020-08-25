@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/ozelMatrisveDiziler2.dir/Advanced_Initialization/ozelMatrisveDiziler2/Eigen/Eigen.cpp.o  -o ozelMatrisveDiziler2 

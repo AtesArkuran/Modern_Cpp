@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/Partition.dir/partition.cpp.o  -o Partition 

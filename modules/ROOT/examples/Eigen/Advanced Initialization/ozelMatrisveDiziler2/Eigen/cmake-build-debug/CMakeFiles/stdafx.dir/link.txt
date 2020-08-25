@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/stdafx.dir/stdafx.cpp.o  -o stdafx 

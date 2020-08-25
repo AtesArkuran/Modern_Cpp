@@ -1,0 +1,5 @@
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Giris/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Giris/cmake-build-debug/CMakeFiles/merhaba.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Giris/cmake-build-debug/CMakeFiles/stajer.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Giris/cmake-build-debug/CMakeFiles/klavye.dir
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Giris/cmake-build-debug/CMakeFiles/edit_cache.dir

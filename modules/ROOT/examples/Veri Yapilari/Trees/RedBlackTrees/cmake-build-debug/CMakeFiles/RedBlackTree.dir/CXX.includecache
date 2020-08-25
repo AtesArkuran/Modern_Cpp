@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Veri Yapilari/Trees/RedBlackTrees/RedBlackTree.cpp
+pch.h
+/home/hulya/İndirilenler/Modern_Cpp_WebSite-master/Veri Yapilari/Trees/RedBlackTrees/pch.h
+iostream
+-
+queue
+-
+

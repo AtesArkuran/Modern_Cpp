@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/erisimBelirleyicilerOrnek.dir/main.cpp.o  -o erisimBelirleyicilerOrnek 

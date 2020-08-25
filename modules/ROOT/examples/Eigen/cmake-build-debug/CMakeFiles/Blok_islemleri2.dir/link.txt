@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/Blok_islemleri2.dir/Blok_İşlemleri/blokIslemleri2/Eigen/Eigen.cpp.o  -o Blok_islemleri2 

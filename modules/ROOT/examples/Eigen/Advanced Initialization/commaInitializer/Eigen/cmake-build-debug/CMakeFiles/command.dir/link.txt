@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/command.dir/Eigen.cpp.o  -o command 

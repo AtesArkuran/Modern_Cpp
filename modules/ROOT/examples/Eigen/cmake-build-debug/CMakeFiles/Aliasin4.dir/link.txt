@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/Aliasin4.dir/Aliasing/Aliasing4/11A2/11A2.cpp.o  -o Aliasin4 
