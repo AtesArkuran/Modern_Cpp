@@ -1,0 +1,52 @@
+Kapsülleme kısaca sınıf içerisindeki verilere dışarıdan erişimin kapatılmasıdır. Verilere erişim sınıf üye fonksiyonları tarafından yapılmalıdır.
+
+[source,java]
+----
+class insan{
+public:
+    int boy;
+    int kilo;
+    float vki();
+};
+float insan::vki(){
+
+    return (1.0*(kilo)) / (boy*boy);
+}
+int main(){
+    insan i1;
+    i1.boy=150;
+    i1.kilo=55;
+
+    cout<<i1.vki();
+    return 0;
+}
+----
+
+&nbsp;
+
+Görüldüğü üzre i1 nesnesinin değişkenlerine dışarıdan atama yapıp değiştirebiliyoruz.Bunun olmaması için atamaları kurucu fonksiyonumuz içinde yapıp,değişkenleri dışarıya karşı kapsülleyebiliriz.
+
+[source,java]
+----
+class insan{
+private:
+    int boy;
+    int kilo;
+public:
+    insan(int boy1,int kilo1):boy(boy1),kilo(kilo1){}
+    float vki();
+};
+float insan::vki(){
+
+    return (1.0*(kilo)) / (boy*boy);
+}
+int main(){
+    insan i1(185,90);
+    cout<<i1.vki();
+    return 0;
+}
+----
+
+&nbsp;
+
+İşte boy ve kilo değişkenlerini private tanımlayıp,sadece nesne oluştururken değerlere atama yapabilmeyi zorunlu kıldık.Eğer ki nesne değişkenlerine dışarıdan erişilmeye çalışılınırsa derleyici hata verecektir.
