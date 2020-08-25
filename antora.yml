@@ -1,6 +1,6 @@
-name: Modern-CPP-Yapbenzet
-title: Yapbenzet Modern C++
-start_page: ROOT:giris.adoc
+name: Modern-CPP-Ates
+title: Modern C++ Ates
+start_page: ROOT:README.adoc
 version: 1.1
 nav:
 - modules/ROOT/nav.adoc
