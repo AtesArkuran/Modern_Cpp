@@ -1,0 +1,117 @@
+= Modern Cpp Örnekleri
+
+Bu depo Tasarım Örüntüleri dersinde gösterilen örnekleri içermektedir.
+
+== Hafta-01
+
+* *Vector*
+    
+Modern Cpp'ta vector tanımı nedir, nasıl kullanılır sorularını cevaplayan örnektir. Vector değişkeni ile ilgili temel bilgiler anlatılmaktadır.    
+    
+* *Chat*
+
+Modern Cpp'ta sınıf oluşturmanın mantığını gösteren örnektir. Sınıfları oluştururken nelere dikkat edilmeli, Cpp'ta derleme işlemi nasıl yapılır sorularını cevaplamaya yöneliktir. 
+
+* *Animals*
+
+Ders boyunca yapılacak işlenecek konulara bir örnektir. Private, public sınıfların neler olduğu gösterilmektedir.
+
+== Hafta-02
+
+* *Virtual Functions*
+
+Modern Cpp'ta virtual function (sanal fonksiyon) tanımının ne işe yaradığını, nasıl kullanıldığını anlatan örnektir.
+
+* *Pure Virtual Functions*
+
+Modern Cpp'ta pure virtual function (saf sanal fonksiyon) tanımının ne işe yaradığını, nasıl kullanıldığını ve sanal fonksiyon tanımından farkını gösteren örnektir.
+
+* *Abstract*
+
+Pure virual function'ları (saf sanal fonksiyonları) kullanarak basit bir Abstract sınıf oluşturma örneğidir.
+
+* *Templates*
+
+Modern Cpp'ta template tanımını kısaca anlatan, ne işe yaradığını gösteren örnektir.
+
+* *Move Semantics*
+
+Modern Cpp'ta move() fonksiyonun ne iş yaptığını, rvalue tanımını, lvalue tanımını, && operatörünü gösteren örnektir.
+
+* *Shared Pointer*
+
+Modern Cpp'ta shared pointer (paylaşılan işaretçi) tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+== Hafta-03
+
+* *Map*
+
+Modern Cpp'ta map tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Single Responsibility Principle*
+
+Modern Cpp ile Single Responsibility (Tek Sorumluluk) prensibini anlatan örnektir. Örnek, bir günlüğe not tutma ve bu günlüktekileri bir dosyaya kaydetme ile ilgilidir.
+
+== Hafta-04
+
+* *Array*
+
+Modern Cpp'ta array tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Deque*
+
+Modern Cpp'ta deque tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *List*
+
+Modern Cpp'ta list tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Multimap*
+
+Modern Cpp'ta geçen hafta gösterilen map'in farklı bir türü olan multimap'in tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Set*
+
+Modern Cpp'ta set tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Multiset*
+
+Modern Cpp'ta bu hafta gösterilen set'in farklı bir türü olan multiset'in tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Stack*
+
+Modern Cpp'ta stack tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Queue*
+
+Modern Cpp'ta queue tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Priority Queue*
+
+Modern Cpp'ta priority_queue tanımını gösteren ve nasıl kullanıldığını anlatan örnektir.
+
+* *Open-Closed Principle*
+
+Modern Cpp ile Open-Closed (Geliştirmeye Açık Değiştirmeye Kapalı) prensibini anlatan örnektir. Örnek, ürünlerin aramasını yapan bir programı anlatır.
+
+== Hafta-05
+
+* *Thread-Safe Singleton*
+
+* *Factory Pattern*
+
+* *Operator Overloading*
+
+* *Early Binding*
+
+* *Late Binding*
+
+== Hafta-06
+
+* *Thread-Safe Object Pool*
+
+* *Prototype Pattern*
+
+* *Deep and Shallow Copy*
+
+* *Initializers*
