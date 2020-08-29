@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-06-01-Object_Pool.dir/Hafta-06/01-Object_Pool/main.cpp.o  -o Hafta-06-01-Object_Pool  -lpthread 

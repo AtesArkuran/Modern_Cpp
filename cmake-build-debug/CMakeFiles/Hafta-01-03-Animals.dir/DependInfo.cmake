@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/atuash/Modern_Cpp/Hafta-01/03-Animals/Animal.cpp" "/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Animal.cpp.o"
-  "/home/atuash/Modern_Cpp/Hafta-01/03-Animals/Cat.cpp" "/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Cat.cpp.o"
-  "/home/atuash/Modern_Cpp/Hafta-01/03-Animals/Dog.cpp" "/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Dog.cpp.o"
-  "/home/atuash/Modern_Cpp/Hafta-01/03-Animals/main.cpp" "/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/main.cpp.o"
+  "/home/ates/Documents/Github Projects/Modern_Cpp/Hafta-01/03-Animals/Animal.cpp" "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Animal.cpp.o"
+  "/home/ates/Documents/Github Projects/Modern_Cpp/Hafta-01/03-Animals/Cat.cpp" "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Cat.cpp.o"
+  "/home/ates/Documents/Github Projects/Modern_Cpp/Hafta-01/03-Animals/Dog.cpp" "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/Dog.cpp.o"
+  "/home/ates/Documents/Github Projects/Modern_Cpp/Hafta-01/03-Animals/main.cpp" "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir/Hafta-01/03-Animals/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

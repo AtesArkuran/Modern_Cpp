@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/atuash/Modern_Cpp/Hafta-02/05-Move_Semantics/main.cpp" "/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-05-Move_Semantics.dir/Hafta-02/05-Move_Semantics/main.cpp.o"
-  "/home/atuash/Modern_Cpp/Hafta-02/05-Move_Semantics/ornek.cpp" "/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-05-Move_Semantics.dir/Hafta-02/05-Move_Semantics/ornek.cpp.o"
+  "/home/ates/Documents/Github Projects/Modern_Cpp/Hafta-02/05-Move_Semantics/main.cpp" "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-05-Move_Semantics.dir/Hafta-02/05-Move_Semantics/main.cpp.o"
+  "/home/ates/Documents/Github Projects/Modern_Cpp/Hafta-02/05-Move_Semantics/ornek.cpp" "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-05-Move_Semantics.dir/Hafta-02/05-Move_Semantics/ornek.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

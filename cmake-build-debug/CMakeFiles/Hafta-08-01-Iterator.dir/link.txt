@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-08-01-Iterator.dir/Hafta-08/01-Iterator/main.cpp.o  -o Hafta-08-01-Iterator 

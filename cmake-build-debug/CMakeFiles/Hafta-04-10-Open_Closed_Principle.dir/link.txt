@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/Hafta-04/10-Open_Closed_Principle/main.cpp.o  -o Hafta-04-10-Open_Closed_Principle 

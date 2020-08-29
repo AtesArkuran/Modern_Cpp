@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-06-02-Prototype.dir/Hafta-06/02-Prototype/main.cpp.o  -o Hafta-06-02-Prototype 

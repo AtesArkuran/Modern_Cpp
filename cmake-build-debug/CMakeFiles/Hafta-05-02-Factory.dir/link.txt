@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-05-02-Factory.dir/Hafta-05/02-Factory/main.cpp.o  -o Hafta-05-02-Factory 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-04-02-Deque.dir/Hafta-04/02-Deque/main.cpp.o  -o Hafta-04-02-Deque 

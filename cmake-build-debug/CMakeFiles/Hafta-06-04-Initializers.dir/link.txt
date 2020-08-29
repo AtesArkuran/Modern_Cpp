@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-06-04-Initializers.dir/Hafta-06/04-Initializers/main.cpp.o CMakeFiles/Hafta-06-04-Initializers.dir/Hafta-06/04-Initializers/sinif.cpp.o  -o Hafta-06-04-Initializers 

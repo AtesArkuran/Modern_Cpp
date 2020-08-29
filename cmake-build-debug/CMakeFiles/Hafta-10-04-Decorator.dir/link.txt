@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-10-04-Decorator.dir/Hafta-10/04-Decorator/main.cpp.o  -o Hafta-10-04-Decorator 

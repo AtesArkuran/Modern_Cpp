@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-10-01-Metaprogramming.dir/Hafta-10/01-Metaprogramming/main.cpp.o  -o Hafta-10-01-Metaprogramming 

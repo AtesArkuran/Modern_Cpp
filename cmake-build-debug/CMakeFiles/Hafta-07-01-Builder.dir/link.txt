@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-07-01-Builder.dir/Hafta-07/01-Builder/main.cpp.o  -o Hafta-07-01-Builder 

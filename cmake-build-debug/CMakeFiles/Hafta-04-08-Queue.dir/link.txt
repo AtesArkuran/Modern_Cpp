@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-04-08-Queue.dir/Hafta-04/08-Queue/main.cpp.o  -o Hafta-04-08-Queue 

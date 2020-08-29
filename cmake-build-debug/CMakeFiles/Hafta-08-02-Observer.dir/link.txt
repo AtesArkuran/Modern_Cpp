@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-08-02-Observer.dir/Hafta-08/02-Observer/main.cpp.o  -o Hafta-08-02-Observer 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-04-07-Stack.dir/Hafta-04/07-Stack/main.cpp.o  -o Hafta-04-07-Stack 

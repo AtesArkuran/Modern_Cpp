@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/atuash/Modern_Cpp/Hafta-01/01-vector/main.cpp" "/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.o"
-  "/home/atuash/Modern_Cpp/Hafta-01/01-vector/sinif.cpp" "/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.o"
-  "/home/atuash/Modern_Cpp/Hafta-05/04-Early_Binding/main.cpp" "/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.o"
+  "/home/ates/Documents/Github Projects/Modern_Cpp/Hafta-01/01-vector/main.cpp" "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/main.cpp.o"
+  "/home/ates/Documents/Github Projects/Modern_Cpp/Hafta-01/01-vector/sinif.cpp" "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-Vector.dir/Hafta-01/01-vector/sinif.cpp.o"
+  "/home/ates/Documents/Github Projects/Modern_Cpp/Hafta-05/04-Early_Binding/main.cpp" "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-Vector.dir/Hafta-05/04-Early_Binding/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-05-05-Late_Binding.dir/Hafta-05/05-Late_Binding/main.cpp.o  -o Hafta-05-05-Late_Binding 

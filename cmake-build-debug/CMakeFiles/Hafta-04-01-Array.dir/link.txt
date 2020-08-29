@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-04-01-Array.dir/Hafta-04/01-Array/main.cpp.o  -o Hafta-04-01-Array 

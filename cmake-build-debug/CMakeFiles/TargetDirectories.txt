@@ -1,41 +1,41 @@
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-04-Decorator.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-02-IgorHomework.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-09-02-Memento.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-09-01-Command.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-08-01-Iterator.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-07-01-Builder.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-04-Initializers.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-05-Late_Binding.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-02-Prototype.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-04-Early_Binding.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-03-Operators.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-02-Factory.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-03-01-Map.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-06-Shared_Pointer.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-04-Templates.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-01-Object_Pool.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-01-Virtual_Functions.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-08-02-Observer.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-02-Deque.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-03-Abstract.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-02-Chat.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-05-Move_Semantics.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-01-Array.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-03-List.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-09-Priority_Queue.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-Vector.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-04-Multimap.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-08-Queue.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-05-Set.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-06-Multiset.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-01-Metaprogramming.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-07-Stack.dir
-/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-04-Decorator.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-02-IgorHomework.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-09-02-Memento.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-09-01-Command.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-08-01-Iterator.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-07-01-Builder.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-04-Initializers.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-05-Late_Binding.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-02-Prototype.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-04-Early_Binding.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-03-Operators.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-02-Factory.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-03-01-Map.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-06-Shared_Pointer.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-04-Templates.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-03-Animals.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-06-01-Object_Pool.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-01-Virtual_Functions.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-08-02-Observer.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-02-Deque.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-03-Abstract.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-02-Chat.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-05-Move_Semantics.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-01-Array.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-03-List.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-09-Priority_Queue.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-01-01-Vector.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-04-Multimap.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-08-Queue.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-05-Set.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-06-Multiset.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-10-01-Metaprogramming.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-04-07-Stack.dir
+/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir

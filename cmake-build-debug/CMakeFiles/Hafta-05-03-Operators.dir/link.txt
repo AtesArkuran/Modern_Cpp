@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-05-03-Operators.dir/Hafta-05/03-Operators/main.cpp.o CMakeFiles/Hafta-05-03-Operators.dir/Hafta-05/03-Operators/topluluk.cpp.o  -o Hafta-05-03-Operators 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/atuash/Modern_Cpp/Hafta-03/01-Map/main.cpp" "/home/atuash/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-03-01-Map.dir/Hafta-03/01-Map/main.cpp.o"
+  "/home/ates/Documents/Github Projects/Modern_Cpp/Hafta-03/01-Map/main.cpp" "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles/Hafta-03-01-Map.dir/Hafta-03/01-Map/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

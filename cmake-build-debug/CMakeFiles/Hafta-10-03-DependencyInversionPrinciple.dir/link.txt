@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/Hafta-10/03-DependencyInversionPrinciple/main.cpp.o  -o Hafta-10-03-DependencyInversionPrinciple 

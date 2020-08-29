@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/Hafta-06/03-Deep_And_Shallow_Copy/main.cpp.o  -o Hafta-06-03-Deep_And_Shallow_Copy 

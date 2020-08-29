@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-04-09-Priority_Queue.dir/Hafta-04/09-Priority_Queue/main.cpp.o  -o Hafta-04-09-Priority_Queue 

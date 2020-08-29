@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/Hafta-05/01-Thread_Safe_Singleton/main.cpp.o  -o Hafta-05-01-Thread_Safe_Singleton  -lpthread 

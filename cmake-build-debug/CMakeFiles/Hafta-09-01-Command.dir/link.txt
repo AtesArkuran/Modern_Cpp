@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-09-01-Command.dir/Hafta-09/01-Command/main.cpp.o  -o Hafta-09-01-Command 

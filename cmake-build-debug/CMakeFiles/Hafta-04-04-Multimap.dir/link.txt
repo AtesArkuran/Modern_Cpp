@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-04-04-Multimap.dir/Hafta-04/04-Multimap/main.cpp.o  -o Hafta-04-04-Multimap 

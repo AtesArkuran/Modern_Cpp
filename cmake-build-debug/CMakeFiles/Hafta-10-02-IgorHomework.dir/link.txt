@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Hafta-10-02-IgorHomework.dir/Hafta-10/02-IgorHomework/dummy_strategy.cpp.o CMakeFiles/Hafta-10-02-IgorHomework.dir/Hafta-10/02-IgorHomework/png_strategy.cpp.o  -o Hafta-10-02-IgorHomework 
