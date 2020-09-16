@@ -3,6 +3,8 @@ project(modern_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_executable(Boost-01-HelloBoost Boost/01-HelloBoost/main.cpp)
+
 add_executable(Hafta-01-01-Vector Hafta-01/01-vector/main.cpp Hafta-01/01-vector/sinif.cpp Hafta-01/01-vector/sinif.h Hafta-05/04-Early_Binding/main.cpp)
 
 add_executable(Hafta-01-02-Chat Hafta-01/02-Chat/main.cpp Hafta-01/02-Chat/chat_sinif.cpp Hafta-01/02-Chat/chat_sinif.h)

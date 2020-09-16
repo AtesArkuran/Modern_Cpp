@@ -86,13 +86,14 @@ all: CMakeFiles/Hafta-06-02-Prototype.dir/all
 all: CMakeFiles/Hafta-05-04-Early_Binding.dir/all
 all: CMakeFiles/Hafta-05-03-Operators.dir/all
 all: CMakeFiles/Hafta-05-02-Factory.dir/all
-all: CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all
-all: CMakeFiles/Hafta-03-01-Map.dir/all
+all: CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/all
 all: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all
-all: CMakeFiles/Hafta-02-04-Templates.dir/all
-all: CMakeFiles/Hafta-01-03-Animals.dir/all
 all: CMakeFiles/Hafta-06-01-Object_Pool.dir/all
 all: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/all
+all: CMakeFiles/Hafta-02-04-Templates.dir/all
+all: CMakeFiles/Hafta-01-03-Animals.dir/all
+all: CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all
+all: CMakeFiles/Hafta-03-01-Map.dir/all
 all: CMakeFiles/Hafta-08-02-Observer.dir/all
 all: CMakeFiles/Hafta-04-02-Deque.dir/all
 all: CMakeFiles/Hafta-02-03-Abstract.dir/all
@@ -106,12 +107,12 @@ all: CMakeFiles/Hafta-04-09-Priority_Queue.dir/all
 all: CMakeFiles/Hafta-01-01-Vector.dir/all
 all: CMakeFiles/Hafta-04-04-Multimap.dir/all
 all: CMakeFiles/Hafta-04-08-Queue.dir/all
+all: CMakeFiles/Boost-01-HelloBoost.dir/all
 all: CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/all
 all: CMakeFiles/Hafta-04-05-Set.dir/all
 all: CMakeFiles/Hafta-04-06-Multiset.dir/all
 all: CMakeFiles/Hafta-10-01-Metaprogramming.dir/all
 all: CMakeFiles/Hafta-04-07-Stack.dir/all
-all: CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/all
 
 .PHONY : all
 
@@ -134,13 +135,14 @@ clean: CMakeFiles/Hafta-06-02-Prototype.dir/clean
 clean: CMakeFiles/Hafta-05-04-Early_Binding.dir/clean
 clean: CMakeFiles/Hafta-05-03-Operators.dir/clean
 clean: CMakeFiles/Hafta-05-02-Factory.dir/clean
-clean: CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean
-clean: CMakeFiles/Hafta-03-01-Map.dir/clean
+clean: CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/clean
 clean: CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean
-clean: CMakeFiles/Hafta-02-04-Templates.dir/clean
-clean: CMakeFiles/Hafta-01-03-Animals.dir/clean
 clean: CMakeFiles/Hafta-06-01-Object_Pool.dir/clean
 clean: CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean
+clean: CMakeFiles/Hafta-02-04-Templates.dir/clean
+clean: CMakeFiles/Hafta-01-03-Animals.dir/clean
+clean: CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean
+clean: CMakeFiles/Hafta-03-01-Map.dir/clean
 clean: CMakeFiles/Hafta-08-02-Observer.dir/clean
 clean: CMakeFiles/Hafta-04-02-Deque.dir/clean
 clean: CMakeFiles/Hafta-02-03-Abstract.dir/clean
@@ -154,12 +156,12 @@ clean: CMakeFiles/Hafta-04-09-Priority_Queue.dir/clean
 clean: CMakeFiles/Hafta-01-01-Vector.dir/clean
 clean: CMakeFiles/Hafta-04-04-Multimap.dir/clean
 clean: CMakeFiles/Hafta-04-08-Queue.dir/clean
+clean: CMakeFiles/Boost-01-HelloBoost.dir/clean
 clean: CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/clean
 clean: CMakeFiles/Hafta-04-05-Set.dir/clean
 clean: CMakeFiles/Hafta-04-06-Multiset.dir/clean
 clean: CMakeFiles/Hafta-10-01-Metaprogramming.dir/clean
 clean: CMakeFiles/Hafta-04-07-Stack.dir/clean
-clean: CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/clean
 
 .PHONY : clean
 
@@ -170,7 +172,7 @@ clean: CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/clean
 CMakeFiles/Hafta-10-04-Decorator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-10-04-Decorator.dir/build.make CMakeFiles/Hafta-10-04-Decorator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-10-04-Decorator.dir/build.make CMakeFiles/Hafta-10-04-Decorator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=92,93 "Built target Hafta-10-04-Decorator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=94,95 "Built target Hafta-10-04-Decorator"
 .PHONY : CMakeFiles/Hafta-10-04-Decorator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -197,7 +199,7 @@ CMakeFiles/Hafta-10-04-Decorator.dir/clean:
 CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build.make CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build.make CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=90,91 "Built target Hafta-10-03-DependencyInversionPrinciple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=92,93 "Built target Hafta-10-03-DependencyInversionPrinciple"
 .PHONY : CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/all
 
 # Build rule for subdir invocation for target.
@@ -224,7 +226,7 @@ CMakeFiles/Hafta-10-03-DependencyInversionPrinciple.dir/clean:
 CMakeFiles/Hafta-10-02-IgorHomework.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-10-02-IgorHomework.dir/build.make CMakeFiles/Hafta-10-02-IgorHomework.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=87,88,89 "Built target Hafta-10-02-IgorHomework"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=89,90,91 "Built target Hafta-10-02-IgorHomework"
 .PHONY : CMakeFiles/Hafta-10-02-IgorHomework.dir/all
 
 # Build rule for subdir invocation for target.
@@ -251,7 +253,7 @@ CMakeFiles/Hafta-10-02-IgorHomework.dir/clean:
 CMakeFiles/Hafta-09-02-Memento.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-09-02-Memento.dir/build.make CMakeFiles/Hafta-09-02-Memento.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-09-02-Memento.dir/build.make CMakeFiles/Hafta-09-02-Memento.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=83,84 "Built target Hafta-09-02-Memento"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=85,86 "Built target Hafta-09-02-Memento"
 .PHONY : CMakeFiles/Hafta-09-02-Memento.dir/all
 
 # Build rule for subdir invocation for target.
@@ -278,7 +280,7 @@ CMakeFiles/Hafta-09-02-Memento.dir/clean:
 CMakeFiles/Hafta-09-01-Command.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-09-01-Command.dir/build.make CMakeFiles/Hafta-09-01-Command.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-09-01-Command.dir/build.make CMakeFiles/Hafta-09-01-Command.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=81,82 "Built target Hafta-09-01-Command"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=83,84 "Built target Hafta-09-01-Command"
 .PHONY : CMakeFiles/Hafta-09-01-Command.dir/all
 
 # Build rule for subdir invocation for target.
@@ -305,7 +307,7 @@ CMakeFiles/Hafta-09-01-Command.dir/clean:
 CMakeFiles/Hafta-08-01-Iterator.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-08-01-Iterator.dir/build.make CMakeFiles/Hafta-08-01-Iterator.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-08-01-Iterator.dir/build.make CMakeFiles/Hafta-08-01-Iterator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=77,78 "Built target Hafta-08-01-Iterator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=79,80 "Built target Hafta-08-01-Iterator"
 .PHONY : CMakeFiles/Hafta-08-01-Iterator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -332,7 +334,7 @@ CMakeFiles/Hafta-08-01-Iterator.dir/clean:
 CMakeFiles/Hafta-07-01-Builder.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-07-01-Builder.dir/build.make CMakeFiles/Hafta-07-01-Builder.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-07-01-Builder.dir/build.make CMakeFiles/Hafta-07-01-Builder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=75,76 "Built target Hafta-07-01-Builder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=77,78 "Built target Hafta-07-01-Builder"
 .PHONY : CMakeFiles/Hafta-07-01-Builder.dir/all
 
 # Build rule for subdir invocation for target.
@@ -359,7 +361,7 @@ CMakeFiles/Hafta-07-01-Builder.dir/clean:
 CMakeFiles/Hafta-06-04-Initializers.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-04-Initializers.dir/build.make CMakeFiles/Hafta-06-04-Initializers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=72,73,74 "Built target Hafta-06-04-Initializers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=74,75,76 "Built target Hafta-06-04-Initializers"
 .PHONY : CMakeFiles/Hafta-06-04-Initializers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -386,7 +388,7 @@ CMakeFiles/Hafta-06-04-Initializers.dir/clean:
 CMakeFiles/Hafta-05-05-Late_Binding.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-05-Late_Binding.dir/build.make CMakeFiles/Hafta-05-05-Late_Binding.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-05-Late_Binding.dir/build.make CMakeFiles/Hafta-05-05-Late_Binding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=64,65 "Built target Hafta-05-05-Late_Binding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=66,67 "Built target Hafta-05-05-Late_Binding"
 .PHONY : CMakeFiles/Hafta-05-05-Late_Binding.dir/all
 
 # Build rule for subdir invocation for target.
@@ -413,7 +415,7 @@ CMakeFiles/Hafta-05-05-Late_Binding.dir/clean:
 CMakeFiles/Hafta-06-02-Prototype.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-02-Prototype.dir/build.make CMakeFiles/Hafta-06-02-Prototype.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-02-Prototype.dir/build.make CMakeFiles/Hafta-06-02-Prototype.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=68,69 "Built target Hafta-06-02-Prototype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=70,71 "Built target Hafta-06-02-Prototype"
 .PHONY : CMakeFiles/Hafta-06-02-Prototype.dir/all
 
 # Build rule for subdir invocation for target.
@@ -440,7 +442,7 @@ CMakeFiles/Hafta-06-02-Prototype.dir/clean:
 CMakeFiles/Hafta-05-04-Early_Binding.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-04-Early_Binding.dir/build.make CMakeFiles/Hafta-05-04-Early_Binding.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-04-Early_Binding.dir/build.make CMakeFiles/Hafta-05-04-Early_Binding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=62,63 "Built target Hafta-05-04-Early_Binding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=64,65 "Built target Hafta-05-04-Early_Binding"
 .PHONY : CMakeFiles/Hafta-05-04-Early_Binding.dir/all
 
 # Build rule for subdir invocation for target.
@@ -467,7 +469,7 @@ CMakeFiles/Hafta-05-04-Early_Binding.dir/clean:
 CMakeFiles/Hafta-05-03-Operators.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-03-Operators.dir/build.make CMakeFiles/Hafta-05-03-Operators.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-03-Operators.dir/build.make CMakeFiles/Hafta-05-03-Operators.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=59,60,61 "Built target Hafta-05-03-Operators"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=61,62,63 "Built target Hafta-05-03-Operators"
 .PHONY : CMakeFiles/Hafta-05-03-Operators.dir/all
 
 # Build rule for subdir invocation for target.
@@ -494,7 +496,7 @@ CMakeFiles/Hafta-05-03-Operators.dir/clean:
 CMakeFiles/Hafta-05-02-Factory.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-02-Factory.dir/build.make CMakeFiles/Hafta-05-02-Factory.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-02-Factory.dir/build.make CMakeFiles/Hafta-05-02-Factory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=57,58 "Built target Hafta-05-02-Factory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=59,60 "Built target Hafta-05-02-Factory"
 .PHONY : CMakeFiles/Hafta-05-02-Factory.dir/all
 
 # Build rule for subdir invocation for target.
@@ -515,58 +517,31 @@ CMakeFiles/Hafta-05-02-Factory.dir/clean:
 .PHONY : CMakeFiles/Hafta-05-02-Factory.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir
+# Target rules for target CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir
 
 # All Build rule for target.
-CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=70,71 "Built target Hafta-06-03-Deep_And_Shallow_Copy"
-.PHONY : CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all
+CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=57,58 "Built target Hafta-05-01-Thread_Safe_Singleton"
+.PHONY : CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/rule: cmake_check_build_system
+CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/rule
+.PHONY : CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/rule
 
 # Convenience name for target.
-Hafta-06-03-Deep_And_Shallow_Copy: CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/rule
+Hafta-05-01-Thread_Safe_Singleton: CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/rule
 
-.PHONY : Hafta-06-03-Deep_And_Shallow_Copy
-
-# clean rule for target.
-CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean
-.PHONY : CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-03-01-Map.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-03-01-Map.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=29,30 "Built target Hafta-03-01-Map"
-.PHONY : CMakeFiles/Hafta-03-01-Map.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-03-01-Map.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-03-01-Map.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Hafta-03-01-Map.dir/rule
-
-# Convenience name for target.
-Hafta-03-01-Map: CMakeFiles/Hafta-03-01-Map.dir/rule
-
-.PHONY : Hafta-03-01-Map
+.PHONY : Hafta-05-01-Thread_Safe_Singleton
 
 # clean rule for target.
-CMakeFiles/Hafta-03-01-Map.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/clean
-.PHONY : CMakeFiles/Hafta-03-01-Map.dir/clean
+CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/clean
+.PHONY : CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Hafta-02-06-Shared_Pointer.dir
@@ -575,7 +550,7 @@ CMakeFiles/Hafta-03-01-Map.dir/clean:
 CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build.make CMakeFiles/Hafta-02-06-Shared_Pointer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build.make CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=27,28 "Built target Hafta-02-06-Shared_Pointer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=29,30 "Built target Hafta-02-06-Shared_Pointer"
 .PHONY : CMakeFiles/Hafta-02-06-Shared_Pointer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -596,67 +571,13 @@ CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean:
 .PHONY : CMakeFiles/Hafta-02-06-Shared_Pointer.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Hafta-02-04-Templates.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-02-04-Templates.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=22,23 "Built target Hafta-02-04-Templates"
-.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-02-04-Templates.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-04-Templates.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/rule
-
-# Convenience name for target.
-Hafta-02-04-Templates: CMakeFiles/Hafta-02-04-Templates.dir/rule
-
-.PHONY : Hafta-02-04-Templates
-
-# clean rule for target.
-CMakeFiles/Hafta-02-04-Templates.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/clean
-.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-01-03-Animals.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-01-03-Animals.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=8,9,10,11,12 "Built target Hafta-01-03-Animals"
-.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-01-03-Animals.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-01-03-Animals.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/rule
-
-# Convenience name for target.
-Hafta-01-03-Animals: CMakeFiles/Hafta-01-03-Animals.dir/rule
-
-.PHONY : Hafta-01-03-Animals
-
-# clean rule for target.
-CMakeFiles/Hafta-01-03-Animals.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/clean
-.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/Hafta-06-01-Object_Pool.dir
 
 # All Build rule for target.
 CMakeFiles/Hafta-06-01-Object_Pool.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-01-Object_Pool.dir/build.make CMakeFiles/Hafta-06-01-Object_Pool.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-01-Object_Pool.dir/build.make CMakeFiles/Hafta-06-01-Object_Pool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=66,67 "Built target Hafta-06-01-Object_Pool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=68,69 "Built target Hafta-06-01-Object_Pool"
 .PHONY : CMakeFiles/Hafta-06-01-Object_Pool.dir/all
 
 # Build rule for subdir invocation for target.
@@ -683,7 +604,7 @@ CMakeFiles/Hafta-06-01-Object_Pool.dir/clean:
 CMakeFiles/Hafta-02-01-Virtual_Functions.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-01-Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-01-Virtual_Functions.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-01-Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-01-Virtual_Functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=13,14,15 "Built target Hafta-02-01-Virtual_Functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=15,16,17 "Built target Hafta-02-01-Virtual_Functions"
 .PHONY : CMakeFiles/Hafta-02-01-Virtual_Functions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -704,13 +625,121 @@ CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean:
 .PHONY : CMakeFiles/Hafta-02-01-Virtual_Functions.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Hafta-02-04-Templates.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-02-04-Templates.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=24,25 "Built target Hafta-02-04-Templates"
+.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-02-04-Templates.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-02-04-Templates.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/rule
+
+# Convenience name for target.
+Hafta-02-04-Templates: CMakeFiles/Hafta-02-04-Templates.dir/rule
+
+.PHONY : Hafta-02-04-Templates
+
+# clean rule for target.
+CMakeFiles/Hafta-02-04-Templates.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-04-Templates.dir/build.make CMakeFiles/Hafta-02-04-Templates.dir/clean
+.PHONY : CMakeFiles/Hafta-02-04-Templates.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-01-03-Animals.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-01-03-Animals.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=10,11,12,13,14 "Built target Hafta-01-03-Animals"
+.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-01-03-Animals.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-01-03-Animals.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/rule
+
+# Convenience name for target.
+Hafta-01-03-Animals: CMakeFiles/Hafta-01-03-Animals.dir/rule
+
+.PHONY : Hafta-01-03-Animals
+
+# clean rule for target.
+CMakeFiles/Hafta-01-03-Animals.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-01-03-Animals.dir/build.make CMakeFiles/Hafta-01-03-Animals.dir/clean
+.PHONY : CMakeFiles/Hafta-01-03-Animals.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=72,73 "Built target Hafta-06-03-Deep_And_Shallow_Copy"
+.PHONY : CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/rule
+
+# Convenience name for target.
+Hafta-06-03-Deep_And_Shallow_Copy: CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/rule
+
+.PHONY : Hafta-06-03-Deep_And_Shallow_Copy
+
+# clean rule for target.
+CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean
+.PHONY : CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Hafta-03-01-Map.dir
+
+# All Build rule for target.
+CMakeFiles/Hafta-03-01-Map.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=31,32 "Built target Hafta-03-01-Map"
+.PHONY : CMakeFiles/Hafta-03-01-Map.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Hafta-03-01-Map.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-03-01-Map.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Hafta-03-01-Map.dir/rule
+
+# Convenience name for target.
+Hafta-03-01-Map: CMakeFiles/Hafta-03-01-Map.dir/rule
+
+.PHONY : Hafta-03-01-Map
+
+# clean rule for target.
+CMakeFiles/Hafta-03-01-Map.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/clean
+.PHONY : CMakeFiles/Hafta-03-01-Map.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Hafta-08-02-Observer.dir
 
 # All Build rule for target.
 CMakeFiles/Hafta-08-02-Observer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-08-02-Observer.dir/build.make CMakeFiles/Hafta-08-02-Observer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-08-02-Observer.dir/build.make CMakeFiles/Hafta-08-02-Observer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=79,80 "Built target Hafta-08-02-Observer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=81,82 "Built target Hafta-08-02-Observer"
 .PHONY : CMakeFiles/Hafta-08-02-Observer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -737,7 +766,7 @@ CMakeFiles/Hafta-08-02-Observer.dir/clean:
 CMakeFiles/Hafta-04-02-Deque.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-02-Deque.dir/build.make CMakeFiles/Hafta-04-02-Deque.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=37,38 "Built target Hafta-04-02-Deque"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=39,40 "Built target Hafta-04-02-Deque"
 .PHONY : CMakeFiles/Hafta-04-02-Deque.dir/all
 
 # Build rule for subdir invocation for target.
@@ -764,7 +793,7 @@ CMakeFiles/Hafta-04-02-Deque.dir/clean:
 CMakeFiles/Hafta-02-03-Abstract.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-03-Abstract.dir/build.make CMakeFiles/Hafta-02-03-Abstract.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-03-Abstract.dir/build.make CMakeFiles/Hafta-02-03-Abstract.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=19,20,21 "Built target Hafta-02-03-Abstract"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=21,22,23 "Built target Hafta-02-03-Abstract"
 .PHONY : CMakeFiles/Hafta-02-03-Abstract.dir/all
 
 # Build rule for subdir invocation for target.
@@ -791,7 +820,7 @@ CMakeFiles/Hafta-02-03-Abstract.dir/clean:
 CMakeFiles/Hafta-01-02-Chat.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-01-02-Chat.dir/build.make CMakeFiles/Hafta-01-02-Chat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=5,6,7 "Built target Hafta-01-02-Chat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=7,8,9 "Built target Hafta-01-02-Chat"
 .PHONY : CMakeFiles/Hafta-01-02-Chat.dir/all
 
 # Build rule for subdir invocation for target.
@@ -818,7 +847,7 @@ CMakeFiles/Hafta-01-02-Chat.dir/clean:
 CMakeFiles/Hafta-02-05-Move_Semantics.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-05-Move_Semantics.dir/build.make CMakeFiles/Hafta-02-05-Move_Semantics.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-05-Move_Semantics.dir/build.make CMakeFiles/Hafta-02-05-Move_Semantics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=24,25,26 "Built target Hafta-02-05-Move_Semantics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=26,27,28 "Built target Hafta-02-05-Move_Semantics"
 .PHONY : CMakeFiles/Hafta-02-05-Move_Semantics.dir/all
 
 # Build rule for subdir invocation for target.
@@ -845,7 +874,7 @@ CMakeFiles/Hafta-02-05-Move_Semantics.dir/clean:
 CMakeFiles/Hafta-04-01-Array.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-01-Array.dir/build.make CMakeFiles/Hafta-04-01-Array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=35,36 "Built target Hafta-04-01-Array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=37,38 "Built target Hafta-04-01-Array"
 .PHONY : CMakeFiles/Hafta-04-01-Array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -872,7 +901,7 @@ CMakeFiles/Hafta-04-01-Array.dir/clean:
 CMakeFiles/Hafta-04-03-List.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-03-List.dir/build.make CMakeFiles/Hafta-04-03-List.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=39,40 "Built target Hafta-04-03-List"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=41,42 "Built target Hafta-04-03-List"
 .PHONY : CMakeFiles/Hafta-04-03-List.dir/all
 
 # Build rule for subdir invocation for target.
@@ -899,7 +928,7 @@ CMakeFiles/Hafta-04-03-List.dir/clean:
 CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=16,17,18 "Built target Hafta-02-02-Pure_Virtual_Functions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=18,19,20 "Built target Hafta-02-02-Pure_Virtual_Functions"
 .PHONY : CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -926,7 +955,7 @@ CMakeFiles/Hafta-02-02-Pure_Virtual_Functions.dir/clean:
 CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build.make CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=31,32,33,34 "Built target Hafta-03-02-Single_Responsibility_Princeple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=33,34,35,36 "Built target Hafta-03-02-Single_Responsibility_Princeple"
 .PHONY : CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/all
 
 # Build rule for subdir invocation for target.
@@ -953,7 +982,7 @@ CMakeFiles/Hafta-03-02-Single_Responsibility_Princeple.dir/clean:
 CMakeFiles/Hafta-04-09-Priority_Queue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-09-Priority_Queue.dir/build.make CMakeFiles/Hafta-04-09-Priority_Queue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-09-Priority_Queue.dir/build.make CMakeFiles/Hafta-04-09-Priority_Queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=51,52 "Built target Hafta-04-09-Priority_Queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=53,54 "Built target Hafta-04-09-Priority_Queue"
 .PHONY : CMakeFiles/Hafta-04-09-Priority_Queue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -980,7 +1009,7 @@ CMakeFiles/Hafta-04-09-Priority_Queue.dir/clean:
 CMakeFiles/Hafta-01-01-Vector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-01-01-Vector.dir/build.make CMakeFiles/Hafta-01-01-Vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target Hafta-01-01-Vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=3,4,5,6 "Built target Hafta-01-01-Vector"
 .PHONY : CMakeFiles/Hafta-01-01-Vector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1007,7 +1036,7 @@ CMakeFiles/Hafta-01-01-Vector.dir/clean:
 CMakeFiles/Hafta-04-04-Multimap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-04-Multimap.dir/build.make CMakeFiles/Hafta-04-04-Multimap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-04-Multimap.dir/build.make CMakeFiles/Hafta-04-04-Multimap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=41,42 "Built target Hafta-04-04-Multimap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=43,44 "Built target Hafta-04-04-Multimap"
 .PHONY : CMakeFiles/Hafta-04-04-Multimap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1034,7 +1063,7 @@ CMakeFiles/Hafta-04-04-Multimap.dir/clean:
 CMakeFiles/Hafta-04-08-Queue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-08-Queue.dir/build.make CMakeFiles/Hafta-04-08-Queue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-08-Queue.dir/build.make CMakeFiles/Hafta-04-08-Queue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=49,50 "Built target Hafta-04-08-Queue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=51,52 "Built target Hafta-04-08-Queue"
 .PHONY : CMakeFiles/Hafta-04-08-Queue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1055,13 +1084,40 @@ CMakeFiles/Hafta-04-08-Queue.dir/clean:
 .PHONY : CMakeFiles/Hafta-04-08-Queue.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Boost-01-HelloBoost.dir
+
+# All Build rule for target.
+CMakeFiles/Boost-01-HelloBoost.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boost-01-HelloBoost.dir/build.make CMakeFiles/Boost-01-HelloBoost.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boost-01-HelloBoost.dir/build.make CMakeFiles/Boost-01-HelloBoost.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target Boost-01-HelloBoost"
+.PHONY : CMakeFiles/Boost-01-HelloBoost.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Boost-01-HelloBoost.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Boost-01-HelloBoost.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 0
+.PHONY : CMakeFiles/Boost-01-HelloBoost.dir/rule
+
+# Convenience name for target.
+Boost-01-HelloBoost: CMakeFiles/Boost-01-HelloBoost.dir/rule
+
+.PHONY : Boost-01-HelloBoost
+
+# clean rule for target.
+CMakeFiles/Boost-01-HelloBoost.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boost-01-HelloBoost.dir/build.make CMakeFiles/Boost-01-HelloBoost.dir/clean
+.PHONY : CMakeFiles/Boost-01-HelloBoost.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir
 
 # All Build rule for target.
 CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/build.make CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=53,54 "Built target Hafta-04-10-Open_Closed_Principle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=55,56 "Built target Hafta-04-10-Open_Closed_Principle"
 .PHONY : CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1088,7 +1144,7 @@ CMakeFiles/Hafta-04-10-Open_Closed_Principle.dir/clean:
 CMakeFiles/Hafta-04-05-Set.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-05-Set.dir/build.make CMakeFiles/Hafta-04-05-Set.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-05-Set.dir/build.make CMakeFiles/Hafta-04-05-Set.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=43,44 "Built target Hafta-04-05-Set"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=45,46 "Built target Hafta-04-05-Set"
 .PHONY : CMakeFiles/Hafta-04-05-Set.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1115,7 +1171,7 @@ CMakeFiles/Hafta-04-05-Set.dir/clean:
 CMakeFiles/Hafta-04-06-Multiset.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-06-Multiset.dir/build.make CMakeFiles/Hafta-04-06-Multiset.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-06-Multiset.dir/build.make CMakeFiles/Hafta-04-06-Multiset.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=45,46 "Built target Hafta-04-06-Multiset"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=47,48 "Built target Hafta-04-06-Multiset"
 .PHONY : CMakeFiles/Hafta-04-06-Multiset.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1142,7 +1198,7 @@ CMakeFiles/Hafta-04-06-Multiset.dir/clean:
 CMakeFiles/Hafta-10-01-Metaprogramming.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-10-01-Metaprogramming.dir/build.make CMakeFiles/Hafta-10-01-Metaprogramming.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-10-01-Metaprogramming.dir/build.make CMakeFiles/Hafta-10-01-Metaprogramming.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=85,86 "Built target Hafta-10-01-Metaprogramming"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=87,88 "Built target Hafta-10-01-Metaprogramming"
 .PHONY : CMakeFiles/Hafta-10-01-Metaprogramming.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1169,7 +1225,7 @@ CMakeFiles/Hafta-10-01-Metaprogramming.dir/clean:
 CMakeFiles/Hafta-04-07-Stack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-07-Stack.dir/build.make CMakeFiles/Hafta-04-07-Stack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-07-Stack.dir/build.make CMakeFiles/Hafta-04-07-Stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=47,48 "Built target Hafta-04-07-Stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=49,50 "Built target Hafta-04-07-Stack"
 .PHONY : CMakeFiles/Hafta-04-07-Stack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1188,33 +1244,6 @@ Hafta-04-07-Stack: CMakeFiles/Hafta-04-07-Stack.dir/rule
 CMakeFiles/Hafta-04-07-Stack.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-07-Stack.dir/build.make CMakeFiles/Hafta-04-07-Stack.dir/clean
 .PHONY : CMakeFiles/Hafta-04-07-Stack.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir
-
-# All Build rule for target.
-CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=55,56 "Built target Hafta-05-01-Thread_Safe_Singleton"
-.PHONY : CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" 0
-.PHONY : CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/rule
-
-# Convenience name for target.
-Hafta-05-01-Thread_Safe_Singleton: CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/rule
-
-.PHONY : Hafta-05-01-Thread_Safe_Singleton
-
-# clean rule for target.
-CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/clean
-.PHONY : CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

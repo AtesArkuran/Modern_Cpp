@@ -300,30 +300,17 @@ Hafta-05-02-Factory/fast:
 .PHONY : Hafta-05-02-Factory/fast
 
 #=============================================================================
-# Target rules for targets named Hafta-06-03-Deep_And_Shallow_Copy
+# Target rules for targets named Hafta-05-01-Thread_Safe_Singleton
 
 # Build rule for target.
-Hafta-06-03-Deep_And_Shallow_Copy: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hafta-06-03-Deep_And_Shallow_Copy
-.PHONY : Hafta-06-03-Deep_And_Shallow_Copy
+Hafta-05-01-Thread_Safe_Singleton: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hafta-05-01-Thread_Safe_Singleton
+.PHONY : Hafta-05-01-Thread_Safe_Singleton
 
 # fast build rule for target.
-Hafta-06-03-Deep_And_Shallow_Copy/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build
-.PHONY : Hafta-06-03-Deep_And_Shallow_Copy/fast
-
-#=============================================================================
-# Target rules for targets named Hafta-03-01-Map
-
-# Build rule for target.
-Hafta-03-01-Map: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hafta-03-01-Map
-.PHONY : Hafta-03-01-Map
-
-# fast build rule for target.
-Hafta-03-01-Map/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/build
-.PHONY : Hafta-03-01-Map/fast
+Hafta-05-01-Thread_Safe_Singleton/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build
+.PHONY : Hafta-05-01-Thread_Safe_Singleton/fast
 
 #=============================================================================
 # Target rules for targets named Hafta-02-06-Shared_Pointer
@@ -337,6 +324,32 @@ Hafta-02-06-Shared_Pointer: cmake_check_build_system
 Hafta-02-06-Shared_Pointer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build.make CMakeFiles/Hafta-02-06-Shared_Pointer.dir/build
 .PHONY : Hafta-02-06-Shared_Pointer/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-06-01-Object_Pool
+
+# Build rule for target.
+Hafta-06-01-Object_Pool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hafta-06-01-Object_Pool
+.PHONY : Hafta-06-01-Object_Pool
+
+# fast build rule for target.
+Hafta-06-01-Object_Pool/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-01-Object_Pool.dir/build.make CMakeFiles/Hafta-06-01-Object_Pool.dir/build
+.PHONY : Hafta-06-01-Object_Pool/fast
+
+#=============================================================================
+# Target rules for targets named Hafta-02-01-Virtual_Functions
+
+# Build rule for target.
+Hafta-02-01-Virtual_Functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hafta-02-01-Virtual_Functions
+.PHONY : Hafta-02-01-Virtual_Functions
+
+# fast build rule for target.
+Hafta-02-01-Virtual_Functions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-01-Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-01-Virtual_Functions.dir/build
+.PHONY : Hafta-02-01-Virtual_Functions/fast
 
 #=============================================================================
 # Target rules for targets named Hafta-02-04-Templates
@@ -365,30 +378,30 @@ Hafta-01-03-Animals/fast:
 .PHONY : Hafta-01-03-Animals/fast
 
 #=============================================================================
-# Target rules for targets named Hafta-06-01-Object_Pool
+# Target rules for targets named Hafta-06-03-Deep_And_Shallow_Copy
 
 # Build rule for target.
-Hafta-06-01-Object_Pool: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hafta-06-01-Object_Pool
-.PHONY : Hafta-06-01-Object_Pool
+Hafta-06-03-Deep_And_Shallow_Copy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hafta-06-03-Deep_And_Shallow_Copy
+.PHONY : Hafta-06-03-Deep_And_Shallow_Copy
 
 # fast build rule for target.
-Hafta-06-01-Object_Pool/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-01-Object_Pool.dir/build.make CMakeFiles/Hafta-06-01-Object_Pool.dir/build
-.PHONY : Hafta-06-01-Object_Pool/fast
+Hafta-06-03-Deep_And_Shallow_Copy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build.make CMakeFiles/Hafta-06-03-Deep_And_Shallow_Copy.dir/build
+.PHONY : Hafta-06-03-Deep_And_Shallow_Copy/fast
 
 #=============================================================================
-# Target rules for targets named Hafta-02-01-Virtual_Functions
+# Target rules for targets named Hafta-03-01-Map
 
 # Build rule for target.
-Hafta-02-01-Virtual_Functions: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hafta-02-01-Virtual_Functions
-.PHONY : Hafta-02-01-Virtual_Functions
+Hafta-03-01-Map: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hafta-03-01-Map
+.PHONY : Hafta-03-01-Map
 
 # fast build rule for target.
-Hafta-02-01-Virtual_Functions/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-02-01-Virtual_Functions.dir/build.make CMakeFiles/Hafta-02-01-Virtual_Functions.dir/build
-.PHONY : Hafta-02-01-Virtual_Functions/fast
+Hafta-03-01-Map/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-03-01-Map.dir/build.make CMakeFiles/Hafta-03-01-Map.dir/build
+.PHONY : Hafta-03-01-Map/fast
 
 #=============================================================================
 # Target rules for targets named Hafta-08-02-Observer
@@ -560,6 +573,19 @@ Hafta-04-08-Queue/fast:
 .PHONY : Hafta-04-08-Queue/fast
 
 #=============================================================================
+# Target rules for targets named Boost-01-HelloBoost
+
+# Build rule for target.
+Boost-01-HelloBoost: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Boost-01-HelloBoost
+.PHONY : Boost-01-HelloBoost
+
+# fast build rule for target.
+Boost-01-HelloBoost/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boost-01-HelloBoost.dir/build.make CMakeFiles/Boost-01-HelloBoost.dir/build
+.PHONY : Boost-01-HelloBoost/fast
+
+#=============================================================================
 # Target rules for targets named Hafta-04-10-Open_Closed_Principle
 
 # Build rule for target.
@@ -624,18 +650,32 @@ Hafta-04-07-Stack/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-04-07-Stack.dir/build.make CMakeFiles/Hafta-04-07-Stack.dir/build
 .PHONY : Hafta-04-07-Stack/fast
 
-#=============================================================================
-# Target rules for targets named Hafta-05-01-Thread_Safe_Singleton
+Boost/01-HelloBoost/main.o: Boost/01-HelloBoost/main.cpp.o
 
-# Build rule for target.
-Hafta-05-01-Thread_Safe_Singleton: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hafta-05-01-Thread_Safe_Singleton
-.PHONY : Hafta-05-01-Thread_Safe_Singleton
+.PHONY : Boost/01-HelloBoost/main.o
 
-# fast build rule for target.
-Hafta-05-01-Thread_Safe_Singleton/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build.make CMakeFiles/Hafta-05-01-Thread_Safe_Singleton.dir/build
-.PHONY : Hafta-05-01-Thread_Safe_Singleton/fast
+# target to build an object file
+Boost/01-HelloBoost/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boost-01-HelloBoost.dir/build.make CMakeFiles/Boost-01-HelloBoost.dir/Boost/01-HelloBoost/main.cpp.o
+.PHONY : Boost/01-HelloBoost/main.cpp.o
+
+Boost/01-HelloBoost/main.i: Boost/01-HelloBoost/main.cpp.i
+
+.PHONY : Boost/01-HelloBoost/main.i
+
+# target to preprocess a source file
+Boost/01-HelloBoost/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boost-01-HelloBoost.dir/build.make CMakeFiles/Boost-01-HelloBoost.dir/Boost/01-HelloBoost/main.cpp.i
+.PHONY : Boost/01-HelloBoost/main.cpp.i
+
+Boost/01-HelloBoost/main.s: Boost/01-HelloBoost/main.cpp.s
+
+.PHONY : Boost/01-HelloBoost/main.s
+
+# target to generate assembly for a file
+Boost/01-HelloBoost/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Boost-01-HelloBoost.dir/build.make CMakeFiles/Boost-01-HelloBoost.dir/Boost/01-HelloBoost/main.cpp.s
+.PHONY : Boost/01-HelloBoost/main.cpp.s
 
 Hafta-01/01-vector/main.o: Hafta-01/01-vector/main.cpp.o
 
@@ -2079,6 +2119,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Boost-01-HelloBoost"
 	@echo "... Hafta-01-01-Vector"
 	@echo "... Hafta-01-02-Chat"
 	@echo "... Hafta-01-03-Animals"
@@ -2118,6 +2159,9 @@ help:
 	@echo "... Hafta-10-02-IgorHomework"
 	@echo "... Hafta-10-03-DependencyInversionPrinciple"
 	@echo "... Hafta-10-04-Decorator"
+	@echo "... Boost/01-HelloBoost/main.o"
+	@echo "... Boost/01-HelloBoost/main.i"
+	@echo "... Boost/01-HelloBoost/main.s"
 	@echo "... Hafta-01/01-vector/main.o"
 	@echo "... Hafta-01/01-vector/main.i"
 	@echo "... Hafta-01/01-vector/main.s"
