@@ -6,9 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/ates/Documents/Github Projects/Modern_Cpp/Hafta-10/03-DependencyInversionPrinciple/main.cpp
-iostream
--
-vector
--
-

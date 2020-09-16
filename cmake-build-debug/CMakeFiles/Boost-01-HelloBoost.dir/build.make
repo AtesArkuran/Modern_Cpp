@@ -99,6 +99,9 @@ Boost__01__HelloBoost_EXTERNAL_OBJECTS =
 
 Boost-01-HelloBoost: CMakeFiles/Boost-01-HelloBoost.dir/Boost/01-HelloBoost/main.cpp.o
 Boost-01-HelloBoost: CMakeFiles/Boost-01-HelloBoost.dir/build.make
+Boost-01-HelloBoost: /home/ates/Documents/boost_1_74_0/stage/lib/libboost_system.so
+Boost-01-HelloBoost: /home/ates/Documents/boost_1_74_0/stage/lib/libboost_filesystem.so
+Boost-01-HelloBoost: /home/ates/Documents/boost_1_74_0/stage/lib/libboost_regex.so
 Boost-01-HelloBoost: CMakeFiles/Boost-01-HelloBoost.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ates/Documents/Github Projects/Modern_Cpp/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Boost-01-HelloBoost"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Boost-01-HelloBoost.dir/link.txt --verbose=$(VERBOSE)

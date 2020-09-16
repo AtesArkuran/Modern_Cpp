@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Boost-01-HelloBoost.dir/Boost/01-HelloBoost/main.cpp.o  -o Boost-01-HelloBoost 
+/usr/bin/c++  -g   CMakeFiles/Boost-01-HelloBoost.dir/Boost/01-HelloBoost/main.cpp.o  -o Boost-01-HelloBoost  -Wl,-rpath,/home/ates/Documents/boost_1_74_0/stage/lib /home/ates/Documents/boost_1_74_0/stage/lib/libboost_system.so /home/ates/Documents/boost_1_74_0/stage/lib/libboost_filesystem.so /home/ates/Documents/boost_1_74_0/stage/lib/libboost_regex.so 

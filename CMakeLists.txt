@@ -3,7 +3,14 @@ project(modern_cpp)
 
 set(CMAKE_CXX_STANDARD 17)
 
+set(BOOST_ROOT "/home/ates/Documents/boost_1_74_0")
+find_package(Boost 1.74 COMPONENTS system filesystem regex REQUIRED)
+if(NOT Boost_FOUND)
+    message(FATAL_ERROR "Could not find boost!")
+endif()
+include_directories(${Boost_INCLUDE_DIRS})
 add_executable(Boost-01-HelloBoost Boost/01-HelloBoost/main.cpp)
+target_link_libraries(Boost-01-HelloBoost  ${Boost_LIBRARIES})
 
 add_executable(Hafta-01-01-Vector Hafta-01/01-vector/main.cpp Hafta-01/01-vector/sinif.cpp Hafta-01/01-vector/sinif.h Hafta-05/04-Early_Binding/main.cpp)
 
